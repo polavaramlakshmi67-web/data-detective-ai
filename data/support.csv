@@ -1,0 +1,3001 @@
+ticket_id,ticket_date,region,issue_type
+T00000,2026-05-01,North,Payment Problem
+T00001,2025-06-27,North,Delivery Delay
+T00002,2025-04-23,East,Out of Stock
+T00003,2026-06-28,South,Delivery Delay
+T00004,2025-06-16,East,Refund Request
+T00005,2025-11-09,East,Product Issue
+T00006,2026-04-16,East,Out of Stock
+T00007,2025-11-13,South,Payment Problem
+T00008,2025-03-27,West,Product Issue
+T00009,2026-05-05,North,Delivery Delay
+T00010,2026-02-28,East,Payment Problem
+T00011,2025-09-15,West,Payment Problem
+T00012,2025-07-10,West,Product Issue
+T00013,2025-10-03,North,Delivery Delay
+T00014,2025-11-02,East,Product Issue
+T00015,2025-04-15,South,Refund Request
+T00016,2025-12-15,West,Product Issue
+T00017,2025-11-15,West,Payment Problem
+T00018,2025-02-26,West,Refund Request
+T00019,2026-03-03,North,Delivery Delay
+T00020,2025-05-20,South,Product Issue
+T00021,2026-03-07,South,Out of Stock
+T00022,2026-02-04,South,Refund Request
+T00023,2026-06-25,South,Payment Problem
+T00024,2026-06-10,South,Product Issue
+T00025,2026-02-23,North,Refund Request
+T00026,2026-05-09,East,Out of Stock
+T00027,2025-03-26,South,Payment Problem
+T00028,2026-06-23,West,Out of Stock
+T00029,2025-06-20,South,Product Issue
+T00030,2025-01-20,North,Refund Request
+T00031,2025-07-16,East,Out of Stock
+T00032,2025-01-12,North,Out of Stock
+T00033,2025-10-23,East,Delivery Delay
+T00034,2026-01-10,East,Refund Request
+T00035,2026-05-15,South,Refund Request
+T00036,2025-02-13,North,Product Issue
+T00037,2026-03-21,North,Product Issue
+T00038,2025-05-29,East,Out of Stock
+T00039,2025-03-04,West,Product Issue
+T00040,2026-05-18,East,Payment Problem
+T00041,2026-06-04,East,Refund Request
+T00042,2026-03-02,South,Out of Stock
+T00043,2026-05-17,West,Out of Stock
+T00044,2025-06-30,North,Delivery Delay
+T00045,2026-01-09,South,Product Issue
+T00046,2025-03-16,South,Delivery Delay
+T00047,2025-06-17,East,Delivery Delay
+T00048,2025-10-20,West,Payment Problem
+T00049,2025-06-17,North,Delivery Delay
+T00050,2026-01-01,North,Out of Stock
+T00051,2026-02-26,East,Refund Request
+T00052,2025-03-24,North,Out of Stock
+T00053,2026-05-04,West,Out of Stock
+T00054,2025-03-20,West,Refund Request
+T00055,2025-05-31,West,Product Issue
+T00056,2025-01-15,North,Out of Stock
+T00057,2026-01-23,East,Refund Request
+T00058,2025-10-10,North,Delivery Delay
+T00059,2026-06-09,North,Out of Stock
+T00060,2025-09-15,South,Refund Request
+T00061,2026-03-19,South,Refund Request
+T00062,2025-10-01,West,Delivery Delay
+T00063,2025-11-18,North,Product Issue
+T00064,2026-05-14,West,Delivery Delay
+T00065,2026-05-21,East,Refund Request
+T00066,2025-09-22,North,Out of Stock
+T00067,2026-02-20,North,Out of Stock
+T00068,2026-01-23,West,Payment Problem
+T00069,2025-04-20,South,Out of Stock
+T00070,2025-07-12,East,Refund Request
+T00071,2025-07-08,North,Out of Stock
+T00072,2026-04-23,East,Refund Request
+T00073,2025-07-17,West,Out of Stock
+T00074,2025-07-18,West,Delivery Delay
+T00075,2025-05-17,South,Payment Problem
+T00076,2026-05-15,East,Delivery Delay
+T00077,2026-04-14,West,Delivery Delay
+T00078,2026-03-18,North,Refund Request
+T00079,2025-01-27,North,Delivery Delay
+T00080,2025-12-22,West,Refund Request
+T00081,2025-12-25,East,Product Issue
+T00082,2026-05-25,North,Product Issue
+T00083,2026-04-16,North,Delivery Delay
+T00084,2025-11-08,North,Refund Request
+T00085,2025-12-06,East,Out of Stock
+T00086,2025-04-26,East,Product Issue
+T00087,2025-02-22,North,Out of Stock
+T00088,2025-11-28,South,Payment Problem
+T00089,2025-03-23,South,Payment Problem
+T00090,2025-01-20,West,Delivery Delay
+T00091,2025-11-19,West,Product Issue
+T00092,2025-11-06,West,Out of Stock
+T00093,2025-03-15,East,Delivery Delay
+T00094,2026-03-12,South,Out of Stock
+T00095,2025-11-11,South,Product Issue
+T00096,2025-10-01,South,Product Issue
+T00097,2025-08-20,East,Product Issue
+T00098,2025-03-25,West,Product Issue
+T00099,2025-09-08,South,Payment Problem
+T00100,2025-09-23,East,Out of Stock
+T00101,2026-05-02,North,Payment Problem
+T00102,2025-12-17,West,Payment Problem
+T00103,2026-04-21,East,Refund Request
+T00104,2026-06-09,North,Product Issue
+T00105,2025-04-28,East,Out of Stock
+T00106,2025-03-16,West,Refund Request
+T00107,2026-01-02,West,Product Issue
+T00108,2025-04-18,East,Delivery Delay
+T00109,2026-04-24,South,Refund Request
+T00110,2025-04-10,North,Payment Problem
+T00111,2025-01-19,East,Payment Problem
+T00112,2026-01-13,West,Product Issue
+T00113,2025-04-02,East,Payment Problem
+T00114,2025-06-28,South,Refund Request
+T00115,2025-03-16,East,Delivery Delay
+T00116,2026-05-07,South,Refund Request
+T00117,2025-04-13,North,Payment Problem
+T00118,2025-11-30,West,Product Issue
+T00119,2025-08-31,West,Product Issue
+T00120,2025-03-20,North,Refund Request
+T00121,2026-04-06,North,Out of Stock
+T00122,2025-01-30,North,Product Issue
+T00123,2026-01-25,East,Out of Stock
+T00124,2025-08-08,West,Out of Stock
+T00125,2026-05-08,North,Delivery Delay
+T00126,2025-01-10,East,Refund Request
+T00127,2025-11-16,South,Refund Request
+T00128,2025-01-21,West,Payment Problem
+T00129,2025-01-06,South,Refund Request
+T00130,2025-09-16,South,Out of Stock
+T00131,2026-06-03,East,Payment Problem
+T00132,2026-05-26,West,Product Issue
+T00133,2026-06-17,North,Payment Problem
+T00134,2026-04-10,North,Product Issue
+T00135,2025-02-14,North,Payment Problem
+T00136,2026-02-27,East,Refund Request
+T00137,2025-05-24,East,Refund Request
+T00138,2025-07-12,East,Delivery Delay
+T00139,2025-06-27,South,Payment Problem
+T00140,2026-03-23,North,Refund Request
+T00141,2025-09-19,South,Refund Request
+T00142,2025-03-30,North,Product Issue
+T00143,2026-05-07,West,Out of Stock
+T00144,2026-02-08,East,Refund Request
+T00145,2026-04-26,West,Out of Stock
+T00146,2026-02-10,North,Payment Problem
+T00147,2025-09-28,South,Delivery Delay
+T00148,2025-12-30,North,Out of Stock
+T00149,2026-02-27,South,Payment Problem
+T00150,2025-02-14,West,Delivery Delay
+T00151,2026-01-02,West,Product Issue
+T00152,2026-05-10,North,Refund Request
+T00153,2025-05-29,North,Out of Stock
+T00154,2025-12-16,North,Payment Problem
+T00155,2025-04-25,West,Refund Request
+T00156,2025-02-16,North,Product Issue
+T00157,2025-04-23,North,Out of Stock
+T00158,2025-11-12,South,Product Issue
+T00159,2025-02-20,West,Product Issue
+T00160,2026-06-12,North,Payment Problem
+T00161,2026-01-25,South,Refund Request
+T00162,2025-06-09,North,Payment Problem
+T00163,2026-02-16,East,Payment Problem
+T00164,2025-07-04,South,Product Issue
+T00165,2025-08-07,East,Refund Request
+T00166,2026-02-27,East,Delivery Delay
+T00167,2026-02-12,South,Out of Stock
+T00168,2025-04-07,South,Refund Request
+T00169,2025-12-13,North,Delivery Delay
+T00170,2026-06-27,North,Delivery Delay
+T00171,2025-05-26,West,Out of Stock
+T00172,2025-08-17,East,Refund Request
+T00173,2025-12-07,West,Refund Request
+T00174,2025-06-13,West,Payment Problem
+T00175,2026-02-26,South,Out of Stock
+T00176,2025-03-04,East,Product Issue
+T00177,2025-09-03,South,Product Issue
+T00178,2025-08-22,North,Out of Stock
+T00179,2026-05-31,South,Refund Request
+T00180,2025-08-08,East,Out of Stock
+T00181,2025-12-30,West,Payment Problem
+T00182,2025-02-11,East,Product Issue
+T00183,2025-09-16,East,Out of Stock
+T00184,2026-05-09,West,Delivery Delay
+T00185,2025-03-14,South,Payment Problem
+T00186,2026-02-05,East,Delivery Delay
+T00187,2025-09-05,East,Refund Request
+T00188,2026-04-15,West,Delivery Delay
+T00189,2026-04-01,West,Out of Stock
+T00190,2025-06-28,South,Delivery Delay
+T00191,2026-01-14,East,Product Issue
+T00192,2026-01-24,South,Product Issue
+T00193,2026-02-13,South,Delivery Delay
+T00194,2025-06-01,North,Refund Request
+T00195,2026-05-06,East,Product Issue
+T00196,2025-05-27,West,Payment Problem
+T00197,2026-01-05,South,Payment Problem
+T00198,2025-10-18,West,Out of Stock
+T00199,2026-06-24,South,Delivery Delay
+T00200,2025-11-17,North,Payment Problem
+T00201,2025-12-13,North,Out of Stock
+T00202,2025-07-01,West,Product Issue
+T00203,2025-03-07,East,Refund Request
+T00204,2025-06-14,South,Payment Problem
+T00205,2025-02-20,West,Payment Problem
+T00206,2025-11-17,South,Refund Request
+T00207,2025-07-10,South,Product Issue
+T00208,2025-03-31,South,Payment Problem
+T00209,2025-09-11,East,Out of Stock
+T00210,2026-05-13,East,Refund Request
+T00211,2025-12-22,North,Out of Stock
+T00212,2026-06-16,East,Out of Stock
+T00213,2025-04-27,East,Product Issue
+T00214,2026-04-04,West,Out of Stock
+T00215,2025-07-02,South,Payment Problem
+T00216,2026-04-23,South,Out of Stock
+T00217,2026-03-22,North,Out of Stock
+T00218,2025-09-03,South,Out of Stock
+T00219,2025-08-13,North,Out of Stock
+T00220,2025-12-31,South,Product Issue
+T00221,2026-05-10,South,Delivery Delay
+T00222,2026-01-22,West,Payment Problem
+T00223,2026-04-27,North,Refund Request
+T00224,2025-03-23,West,Refund Request
+T00225,2025-12-08,West,Out of Stock
+T00226,2025-05-31,North,Out of Stock
+T00227,2025-11-27,East,Refund Request
+T00228,2025-08-21,South,Refund Request
+T00229,2025-06-19,North,Out of Stock
+T00230,2026-06-10,East,Payment Problem
+T00231,2026-06-10,East,Payment Problem
+T00232,2025-01-08,East,Out of Stock
+T00233,2025-06-15,East,Out of Stock
+T00234,2025-06-01,West,Delivery Delay
+T00235,2026-04-14,South,Payment Problem
+T00236,2025-09-08,North,Out of Stock
+T00237,2026-01-20,West,Payment Problem
+T00238,2025-08-16,South,Product Issue
+T00239,2025-09-24,East,Out of Stock
+T00240,2026-06-06,North,Refund Request
+T00241,2026-06-18,West,Delivery Delay
+T00242,2025-04-07,North,Delivery Delay
+T00243,2025-09-13,South,Delivery Delay
+T00244,2025-03-26,North,Delivery Delay
+T00245,2026-05-17,North,Product Issue
+T00246,2026-06-26,East,Payment Problem
+T00247,2025-07-10,South,Delivery Delay
+T00248,2025-11-18,North,Product Issue
+T00249,2025-06-04,West,Out of Stock
+T00250,2026-06-01,North,Product Issue
+T00251,2025-12-31,West,Payment Problem
+T00252,2026-04-08,North,Product Issue
+T00253,2025-03-30,South,Out of Stock
+T00254,2025-02-13,North,Product Issue
+T00255,2025-10-07,North,Delivery Delay
+T00256,2025-03-11,North,Product Issue
+T00257,2025-03-13,West,Out of Stock
+T00258,2025-07-27,North,Payment Problem
+T00259,2025-10-28,North,Out of Stock
+T00260,2025-06-03,South,Payment Problem
+T00261,2025-08-28,East,Out of Stock
+T00262,2025-04-08,South,Refund Request
+T00263,2025-05-18,South,Product Issue
+T00264,2025-02-15,West,Out of Stock
+T00265,2025-12-26,South,Refund Request
+T00266,2026-05-30,South,Product Issue
+T00267,2026-01-01,South,Refund Request
+T00268,2025-11-07,East,Product Issue
+T00269,2025-07-21,East,Out of Stock
+T00270,2025-09-04,North,Refund Request
+T00271,2025-09-30,North,Refund Request
+T00272,2026-05-14,South,Product Issue
+T00273,2026-05-05,East,Out of Stock
+T00274,2025-10-24,West,Delivery Delay
+T00275,2025-12-09,East,Payment Problem
+T00276,2025-02-06,East,Delivery Delay
+T00277,2025-03-05,South,Out of Stock
+T00278,2026-02-13,East,Payment Problem
+T00279,2025-05-30,South,Payment Problem
+T00280,2025-10-05,East,Delivery Delay
+T00281,2025-06-24,North,Refund Request
+T00282,2026-02-01,South,Payment Problem
+T00283,2025-01-13,South,Delivery Delay
+T00284,2026-06-24,West,Delivery Delay
+T00285,2025-04-06,East,Delivery Delay
+T00286,2026-05-26,East,Refund Request
+T00287,2025-03-22,East,Product Issue
+T00288,2025-03-24,West,Delivery Delay
+T00289,2026-06-11,North,Product Issue
+T00290,2025-01-19,North,Delivery Delay
+T00291,2025-02-07,East,Delivery Delay
+T00292,2025-04-12,North,Refund Request
+T00293,2025-04-03,South,Out of Stock
+T00294,2025-10-22,West,Delivery Delay
+T00295,2026-06-28,West,Delivery Delay
+T00296,2026-04-22,East,Payment Problem
+T00297,2025-09-02,East,Delivery Delay
+T00298,2026-03-12,West,Delivery Delay
+T00299,2025-04-24,East,Refund Request
+T00300,2025-08-11,East,Payment Problem
+T00301,2025-06-22,North,Payment Problem
+T00302,2026-03-26,North,Payment Problem
+T00303,2025-03-18,East,Product Issue
+T00304,2025-08-14,East,Refund Request
+T00305,2025-03-17,North,Product Issue
+T00306,2025-03-10,East,Payment Problem
+T00307,2026-03-24,South,Product Issue
+T00308,2026-02-03,South,Out of Stock
+T00309,2025-12-05,North,Delivery Delay
+T00310,2026-01-20,West,Refund Request
+T00311,2025-03-06,East,Refund Request
+T00312,2025-03-20,South,Refund Request
+T00313,2026-01-13,North,Delivery Delay
+T00314,2025-12-12,South,Delivery Delay
+T00315,2026-03-11,East,Refund Request
+T00316,2026-01-13,North,Delivery Delay
+T00317,2025-08-21,East,Out of Stock
+T00318,2025-01-04,North,Delivery Delay
+T00319,2025-08-28,South,Payment Problem
+T00320,2026-04-06,North,Product Issue
+T00321,2026-03-27,West,Out of Stock
+T00322,2026-04-22,North,Payment Problem
+T00323,2026-06-26,East,Product Issue
+T00324,2025-08-09,West,Out of Stock
+T00325,2025-03-04,North,Delivery Delay
+T00326,2025-06-18,North,Out of Stock
+T00327,2026-01-15,South,Delivery Delay
+T00328,2025-11-28,West,Delivery Delay
+T00329,2025-08-16,South,Refund Request
+T00330,2025-04-18,South,Payment Problem
+T00331,2026-06-18,North,Product Issue
+T00332,2025-02-25,North,Payment Problem
+T00333,2025-05-01,West,Product Issue
+T00334,2025-04-22,East,Delivery Delay
+T00335,2025-01-23,North,Product Issue
+T00336,2025-09-21,West,Payment Problem
+T00337,2025-08-19,North,Out of Stock
+T00338,2025-04-30,South,Out of Stock
+T00339,2026-02-11,South,Product Issue
+T00340,2025-06-01,South,Refund Request
+T00341,2025-09-03,South,Payment Problem
+T00342,2025-06-11,West,Delivery Delay
+T00343,2025-07-04,North,Out of Stock
+T00344,2026-06-13,West,Product Issue
+T00345,2025-09-02,South,Product Issue
+T00346,2025-02-19,West,Payment Problem
+T00347,2025-11-02,North,Delivery Delay
+T00348,2025-04-08,South,Refund Request
+T00349,2026-02-10,East,Delivery Delay
+T00350,2025-09-12,West,Out of Stock
+T00351,2026-05-02,North,Product Issue
+T00352,2026-05-31,West,Out of Stock
+T00353,2026-05-19,West,Product Issue
+T00354,2025-03-14,West,Refund Request
+T00355,2025-07-14,South,Product Issue
+T00356,2025-03-30,West,Product Issue
+T00357,2025-05-19,East,Payment Problem
+T00358,2026-02-01,North,Out of Stock
+T00359,2026-01-22,West,Product Issue
+T00360,2026-02-26,West,Payment Problem
+T00361,2025-12-10,West,Product Issue
+T00362,2026-01-09,North,Payment Problem
+T00363,2026-06-03,East,Out of Stock
+T00364,2025-12-12,South,Refund Request
+T00365,2025-04-01,West,Delivery Delay
+T00366,2026-06-24,East,Out of Stock
+T00367,2025-11-03,West,Product Issue
+T00368,2025-08-02,South,Out of Stock
+T00369,2025-09-19,West,Product Issue
+T00370,2025-06-08,West,Payment Problem
+T00371,2026-06-27,North,Out of Stock
+T00372,2026-05-21,South,Payment Problem
+T00373,2025-04-06,East,Payment Problem
+T00374,2025-05-25,South,Refund Request
+T00375,2026-06-18,North,Delivery Delay
+T00376,2025-10-12,East,Refund Request
+T00377,2026-05-17,South,Product Issue
+T00378,2025-02-21,South,Payment Problem
+T00379,2025-08-04,South,Delivery Delay
+T00380,2026-06-06,North,Product Issue
+T00381,2026-01-18,South,Delivery Delay
+T00382,2025-03-10,North,Out of Stock
+T00383,2025-07-30,West,Delivery Delay
+T00384,2025-04-17,North,Refund Request
+T00385,2025-04-29,South,Refund Request
+T00386,2026-03-30,East,Payment Problem
+T00387,2026-01-29,North,Out of Stock
+T00388,2026-01-29,South,Delivery Delay
+T00389,2025-07-17,West,Delivery Delay
+T00390,2025-10-27,West,Out of Stock
+T00391,2025-04-04,West,Delivery Delay
+T00392,2026-06-09,East,Product Issue
+T00393,2025-09-14,North,Payment Problem
+T00394,2025-08-25,South,Refund Request
+T00395,2025-06-20,South,Delivery Delay
+T00396,2025-03-08,East,Out of Stock
+T00397,2026-03-24,East,Delivery Delay
+T00398,2026-04-10,South,Out of Stock
+T00399,2026-02-06,South,Out of Stock
+T00400,2025-07-28,North,Delivery Delay
+T00401,2026-05-30,West,Product Issue
+T00402,2026-06-18,East,Product Issue
+T00403,2025-07-25,East,Delivery Delay
+T00404,2026-02-16,North,Refund Request
+T00405,2026-01-23,East,Payment Problem
+T00406,2025-09-28,North,Refund Request
+T00407,2026-03-06,East,Product Issue
+T00408,2025-12-11,North,Refund Request
+T00409,2026-01-27,East,Out of Stock
+T00410,2025-12-04,North,Payment Problem
+T00411,2025-03-08,East,Product Issue
+T00412,2025-03-26,South,Payment Problem
+T00413,2026-06-08,West,Product Issue
+T00414,2026-06-23,East,Product Issue
+T00415,2026-04-24,West,Product Issue
+T00416,2026-05-18,West,Out of Stock
+T00417,2026-06-22,North,Refund Request
+T00418,2026-04-20,West,Delivery Delay
+T00419,2025-01-18,North,Out of Stock
+T00420,2025-05-10,South,Payment Problem
+T00421,2025-11-06,East,Product Issue
+T00422,2026-02-21,East,Payment Problem
+T00423,2026-03-08,South,Delivery Delay
+T00424,2025-02-05,East,Delivery Delay
+T00425,2026-05-29,North,Refund Request
+T00426,2026-01-15,West,Payment Problem
+T00427,2025-09-24,North,Product Issue
+T00428,2026-04-30,East,Payment Problem
+T00429,2026-03-19,South,Payment Problem
+T00430,2025-12-24,South,Refund Request
+T00431,2025-07-29,East,Product Issue
+T00432,2025-01-13,North,Delivery Delay
+T00433,2025-07-06,East,Payment Problem
+T00434,2025-03-16,North,Delivery Delay
+T00435,2025-05-29,East,Refund Request
+T00436,2025-08-29,West,Payment Problem
+T00437,2025-05-05,North,Out of Stock
+T00438,2025-07-26,North,Product Issue
+T00439,2026-05-27,North,Delivery Delay
+T00440,2025-07-20,North,Refund Request
+T00441,2025-03-04,South,Out of Stock
+T00442,2025-12-27,East,Payment Problem
+T00443,2026-01-06,North,Refund Request
+T00444,2025-11-04,South,Product Issue
+T00445,2025-02-26,South,Delivery Delay
+T00446,2025-11-29,East,Product Issue
+T00447,2025-01-16,North,Delivery Delay
+T00448,2025-05-30,West,Product Issue
+T00449,2025-08-01,East,Delivery Delay
+T00450,2026-06-23,South,Product Issue
+T00451,2025-12-03,East,Payment Problem
+T00452,2025-04-03,South,Out of Stock
+T00453,2025-04-25,North,Product Issue
+T00454,2025-04-23,West,Out of Stock
+T00455,2025-10-09,North,Refund Request
+T00456,2025-02-14,West,Refund Request
+T00457,2025-07-16,West,Payment Problem
+T00458,2026-03-25,East,Payment Problem
+T00459,2025-07-14,East,Payment Problem
+T00460,2026-01-24,East,Payment Problem
+T00461,2026-05-11,North,Delivery Delay
+T00462,2026-06-18,North,Payment Problem
+T00463,2025-11-27,South,Product Issue
+T00464,2025-09-18,East,Product Issue
+T00465,2026-03-18,East,Product Issue
+T00466,2025-05-26,East,Refund Request
+T00467,2025-02-14,North,Payment Problem
+T00468,2026-04-24,South,Refund Request
+T00469,2026-04-30,East,Out of Stock
+T00470,2026-05-31,West,Out of Stock
+T00471,2026-05-01,East,Product Issue
+T00472,2026-04-11,South,Out of Stock
+T00473,2025-07-28,East,Delivery Delay
+T00474,2026-02-24,North,Delivery Delay
+T00475,2025-02-13,East,Refund Request
+T00476,2025-05-30,South,Product Issue
+T00477,2025-12-02,East,Out of Stock
+T00478,2025-11-24,South,Refund Request
+T00479,2026-04-06,North,Payment Problem
+T00480,2026-04-02,South,Payment Problem
+T00481,2026-06-17,South,Product Issue
+T00482,2025-09-18,North,Product Issue
+T00483,2025-05-30,East,Product Issue
+T00484,2025-01-12,South,Payment Problem
+T00485,2026-03-21,South,Out of Stock
+T00486,2025-08-26,East,Out of Stock
+T00487,2025-03-15,South,Product Issue
+T00488,2025-10-23,South,Out of Stock
+T00489,2026-01-30,East,Product Issue
+T00490,2026-02-25,South,Product Issue
+T00491,2026-03-14,East,Delivery Delay
+T00492,2026-04-30,North,Out of Stock
+T00493,2026-05-21,East,Product Issue
+T00494,2026-03-25,North,Product Issue
+T00495,2025-03-15,North,Refund Request
+T00496,2026-06-13,North,Out of Stock
+T00497,2026-04-02,East,Refund Request
+T00498,2025-11-18,South,Out of Stock
+T00499,2025-11-23,East,Payment Problem
+T00500,2026-02-19,East,Payment Problem
+T00501,2026-03-16,North,Product Issue
+T00502,2026-03-08,West,Out of Stock
+T00503,2025-03-15,South,Delivery Delay
+T00504,2026-06-27,West,Delivery Delay
+T00505,2025-08-17,North,Payment Problem
+T00506,2026-04-01,West,Out of Stock
+T00507,2025-06-23,East,Payment Problem
+T00508,2026-05-28,West,Product Issue
+T00509,2025-04-27,East,Payment Problem
+T00510,2025-08-21,North,Out of Stock
+T00511,2025-07-09,North,Refund Request
+T00512,2025-10-18,West,Refund Request
+T00513,2026-01-30,South,Payment Problem
+T00514,2025-07-10,North,Payment Problem
+T00515,2025-10-25,West,Refund Request
+T00516,2025-04-01,North,Payment Problem
+T00517,2026-01-20,North,Refund Request
+T00518,2026-06-02,East,Refund Request
+T00519,2025-07-16,South,Payment Problem
+T00520,2025-03-20,East,Product Issue
+T00521,2025-03-13,East,Payment Problem
+T00522,2025-05-13,East,Product Issue
+T00523,2025-12-23,West,Refund Request
+T00524,2025-03-21,West,Delivery Delay
+T00525,2026-01-27,West,Out of Stock
+T00526,2025-10-15,North,Delivery Delay
+T00527,2025-08-14,North,Delivery Delay
+T00528,2025-10-05,East,Payment Problem
+T00529,2026-06-29,South,Product Issue
+T00530,2025-11-03,South,Payment Problem
+T00531,2026-06-21,West,Out of Stock
+T00532,2025-03-28,South,Delivery Delay
+T00533,2026-01-27,North,Delivery Delay
+T00534,2025-01-15,North,Refund Request
+T00535,2025-07-05,East,Delivery Delay
+T00536,2026-05-15,South,Payment Problem
+T00537,2026-02-08,North,Out of Stock
+T00538,2025-08-07,West,Out of Stock
+T00539,2025-08-04,East,Payment Problem
+T00540,2026-01-08,North,Payment Problem
+T00541,2026-04-11,West,Product Issue
+T00542,2025-03-22,East,Refund Request
+T00543,2025-08-22,South,Payment Problem
+T00544,2026-01-11,North,Payment Problem
+T00545,2025-08-26,South,Out of Stock
+T00546,2026-06-01,South,Product Issue
+T00547,2025-08-24,East,Delivery Delay
+T00548,2026-05-15,North,Refund Request
+T00549,2026-05-01,North,Product Issue
+T00550,2025-05-19,West,Product Issue
+T00551,2025-08-14,South,Refund Request
+T00552,2025-08-12,West,Delivery Delay
+T00553,2026-06-04,North,Delivery Delay
+T00554,2026-02-25,West,Payment Problem
+T00555,2025-09-06,East,Refund Request
+T00556,2025-09-03,East,Payment Problem
+T00557,2025-08-06,East,Product Issue
+T00558,2025-12-01,East,Delivery Delay
+T00559,2026-05-07,West,Out of Stock
+T00560,2026-04-14,West,Product Issue
+T00561,2026-01-22,East,Out of Stock
+T00562,2025-07-12,East,Refund Request
+T00563,2025-03-11,South,Out of Stock
+T00564,2026-03-09,East,Delivery Delay
+T00565,2025-11-15,South,Delivery Delay
+T00566,2025-12-15,West,Refund Request
+T00567,2026-05-19,East,Delivery Delay
+T00568,2026-03-20,South,Payment Problem
+T00569,2025-01-18,East,Out of Stock
+T00570,2025-12-31,West,Payment Problem
+T00571,2026-03-19,South,Delivery Delay
+T00572,2026-06-20,West,Delivery Delay
+T00573,2026-01-10,West,Out of Stock
+T00574,2026-01-28,North,Out of Stock
+T00575,2025-10-16,South,Refund Request
+T00576,2025-11-13,North,Payment Problem
+T00577,2026-02-05,West,Product Issue
+T00578,2026-01-03,East,Refund Request
+T00579,2025-12-31,North,Delivery Delay
+T00580,2025-05-02,North,Product Issue
+T00581,2025-11-15,East,Product Issue
+T00582,2026-06-26,North,Delivery Delay
+T00583,2025-12-19,East,Product Issue
+T00584,2026-02-22,South,Product Issue
+T00585,2025-07-24,North,Delivery Delay
+T00586,2025-10-06,North,Product Issue
+T00587,2025-09-15,North,Out of Stock
+T00588,2025-03-19,East,Delivery Delay
+T00589,2026-05-28,North,Delivery Delay
+T00590,2025-06-17,South,Refund Request
+T00591,2026-01-27,East,Delivery Delay
+T00592,2025-10-17,North,Product Issue
+T00593,2025-08-17,West,Refund Request
+T00594,2025-12-18,North,Product Issue
+T00595,2025-09-23,South,Product Issue
+T00596,2026-05-14,North,Product Issue
+T00597,2025-07-30,East,Refund Request
+T00598,2026-01-23,North,Refund Request
+T00599,2026-06-08,South,Delivery Delay
+T00600,2026-02-13,North,Payment Problem
+T00601,2025-11-25,East,Product Issue
+T00602,2026-02-21,East,Delivery Delay
+T00603,2025-01-05,East,Out of Stock
+T00604,2026-06-20,North,Out of Stock
+T00605,2025-08-15,South,Out of Stock
+T00606,2026-01-25,North,Product Issue
+T00607,2025-01-12,North,Payment Problem
+T00608,2025-05-09,East,Product Issue
+T00609,2025-09-29,North,Delivery Delay
+T00610,2025-04-02,North,Payment Problem
+T00611,2025-10-08,South,Payment Problem
+T00612,2026-02-11,South,Out of Stock
+T00613,2025-02-25,West,Payment Problem
+T00614,2026-05-17,South,Delivery Delay
+T00615,2025-09-02,West,Product Issue
+T00616,2025-08-19,South,Product Issue
+T00617,2026-01-12,South,Product Issue
+T00618,2025-12-05,South,Product Issue
+T00619,2025-08-15,North,Payment Problem
+T00620,2026-04-24,East,Payment Problem
+T00621,2025-07-14,North,Out of Stock
+T00622,2026-05-10,East,Delivery Delay
+T00623,2025-03-03,North,Product Issue
+T00624,2025-03-06,South,Product Issue
+T00625,2025-03-09,South,Out of Stock
+T00626,2025-01-19,North,Payment Problem
+T00627,2025-04-01,North,Payment Problem
+T00628,2025-08-26,South,Payment Problem
+T00629,2026-01-16,North,Payment Problem
+T00630,2025-01-06,South,Out of Stock
+T00631,2025-12-23,North,Delivery Delay
+T00632,2025-08-13,East,Payment Problem
+T00633,2025-09-14,South,Delivery Delay
+T00634,2026-03-07,South,Delivery Delay
+T00635,2026-02-11,West,Delivery Delay
+T00636,2025-09-09,North,Payment Problem
+T00637,2025-06-27,North,Out of Stock
+T00638,2025-07-18,North,Delivery Delay
+T00639,2026-02-13,South,Refund Request
+T00640,2025-11-17,West,Product Issue
+T00641,2025-11-17,North,Refund Request
+T00642,2025-12-22,West,Delivery Delay
+T00643,2026-06-04,South,Delivery Delay
+T00644,2025-12-15,North,Delivery Delay
+T00645,2025-07-09,West,Refund Request
+T00646,2026-05-06,West,Product Issue
+T00647,2025-06-21,South,Delivery Delay
+T00648,2025-10-26,South,Payment Problem
+T00649,2026-03-28,North,Refund Request
+T00650,2025-01-13,South,Payment Problem
+T00651,2025-04-10,West,Refund Request
+T00652,2025-10-05,South,Product Issue
+T00653,2026-01-13,North,Refund Request
+T00654,2026-05-14,North,Payment Problem
+T00655,2025-03-21,South,Delivery Delay
+T00656,2025-02-27,West,Refund Request
+T00657,2025-11-11,South,Out of Stock
+T00658,2025-11-27,West,Product Issue
+T00659,2026-05-17,North,Refund Request
+T00660,2025-06-15,North,Out of Stock
+T00661,2026-02-14,East,Refund Request
+T00662,2025-04-16,West,Product Issue
+T00663,2025-06-15,South,Out of Stock
+T00664,2025-05-08,South,Out of Stock
+T00665,2025-08-09,South,Product Issue
+T00666,2026-06-21,East,Payment Problem
+T00667,2026-06-10,North,Delivery Delay
+T00668,2026-06-18,East,Refund Request
+T00669,2026-01-26,West,Product Issue
+T00670,2026-02-19,East,Out of Stock
+T00671,2025-09-06,East,Refund Request
+T00672,2025-10-13,South,Refund Request
+T00673,2025-07-29,East,Product Issue
+T00674,2025-05-22,West,Out of Stock
+T00675,2025-11-28,South,Product Issue
+T00676,2025-12-28,East,Payment Problem
+T00677,2025-12-26,East,Out of Stock
+T00678,2025-03-18,East,Refund Request
+T00679,2025-08-06,East,Out of Stock
+T00680,2025-10-01,West,Delivery Delay
+T00681,2025-02-02,West,Out of Stock
+T00682,2026-03-01,East,Payment Problem
+T00683,2025-12-20,East,Payment Problem
+T00684,2026-03-11,West,Out of Stock
+T00685,2025-10-15,North,Product Issue
+T00686,2026-02-12,East,Refund Request
+T00687,2025-12-02,South,Delivery Delay
+T00688,2026-03-14,East,Out of Stock
+T00689,2026-04-22,South,Refund Request
+T00690,2025-08-22,West,Payment Problem
+T00691,2026-06-02,West,Out of Stock
+T00692,2026-01-14,North,Refund Request
+T00693,2025-05-03,West,Product Issue
+T00694,2025-07-07,South,Payment Problem
+T00695,2026-02-15,South,Refund Request
+T00696,2025-11-14,North,Product Issue
+T00697,2025-08-15,South,Out of Stock
+T00698,2026-06-20,East,Product Issue
+T00699,2025-04-04,West,Refund Request
+T00700,2025-10-12,South,Product Issue
+T00701,2025-04-13,North,Out of Stock
+T00702,2025-10-01,East,Payment Problem
+T00703,2025-01-17,West,Refund Request
+T00704,2025-10-05,East,Out of Stock
+T00705,2026-01-19,North,Product Issue
+T00706,2025-05-12,East,Product Issue
+T00707,2025-07-27,West,Product Issue
+T00708,2026-04-10,South,Product Issue
+T00709,2025-09-08,West,Refund Request
+T00710,2025-09-02,South,Payment Problem
+T00711,2026-04-30,South,Product Issue
+T00712,2025-06-15,North,Delivery Delay
+T00713,2026-03-24,West,Delivery Delay
+T00714,2025-02-08,West,Product Issue
+T00715,2025-03-24,South,Out of Stock
+T00716,2025-01-27,North,Refund Request
+T00717,2025-08-06,North,Product Issue
+T00718,2026-02-11,South,Out of Stock
+T00719,2025-12-03,West,Out of Stock
+T00720,2026-02-15,South,Out of Stock
+T00721,2026-01-20,South,Payment Problem
+T00722,2025-04-11,South,Refund Request
+T00723,2025-09-19,South,Out of Stock
+T00724,2026-06-23,West,Delivery Delay
+T00725,2025-02-27,East,Refund Request
+T00726,2025-11-09,North,Payment Problem
+T00727,2025-06-01,South,Delivery Delay
+T00728,2026-01-02,West,Delivery Delay
+T00729,2026-03-08,East,Delivery Delay
+T00730,2025-11-01,West,Payment Problem
+T00731,2026-06-28,South,Out of Stock
+T00732,2025-05-16,West,Product Issue
+T00733,2026-04-08,South,Refund Request
+T00734,2025-04-18,South,Product Issue
+T00735,2026-03-30,East,Refund Request
+T00736,2025-03-24,South,Refund Request
+T00737,2026-03-25,North,Delivery Delay
+T00738,2025-10-05,West,Delivery Delay
+T00739,2025-07-15,South,Delivery Delay
+T00740,2026-03-08,West,Delivery Delay
+T00741,2025-11-20,South,Out of Stock
+T00742,2026-03-05,North,Delivery Delay
+T00743,2026-06-19,West,Product Issue
+T00744,2026-01-08,West,Payment Problem
+T00745,2025-11-21,West,Out of Stock
+T00746,2025-08-09,South,Refund Request
+T00747,2026-05-06,North,Delivery Delay
+T00748,2025-01-04,East,Product Issue
+T00749,2025-08-03,West,Refund Request
+T00750,2025-06-16,East,Product Issue
+T00751,2026-06-01,East,Delivery Delay
+T00752,2025-03-27,South,Payment Problem
+T00753,2026-06-20,North,Product Issue
+T00754,2025-10-17,East,Delivery Delay
+T00755,2025-08-23,North,Delivery Delay
+T00756,2026-05-20,West,Delivery Delay
+T00757,2025-08-12,West,Refund Request
+T00758,2025-01-23,North,Refund Request
+T00759,2026-06-02,West,Out of Stock
+T00760,2026-02-02,North,Out of Stock
+T00761,2025-04-25,West,Product Issue
+T00762,2026-02-08,North,Out of Stock
+T00763,2025-08-17,South,Out of Stock
+T00764,2025-03-06,North,Product Issue
+T00765,2025-01-03,West,Refund Request
+T00766,2025-09-07,East,Payment Problem
+T00767,2026-02-21,East,Payment Problem
+T00768,2025-05-23,West,Refund Request
+T00769,2025-03-09,East,Out of Stock
+T00770,2026-06-19,South,Delivery Delay
+T00771,2026-06-05,West,Delivery Delay
+T00772,2025-09-10,East,Refund Request
+T00773,2025-04-05,East,Payment Problem
+T00774,2025-02-15,West,Refund Request
+T00775,2026-06-09,South,Product Issue
+T00776,2026-02-22,South,Payment Problem
+T00777,2025-07-25,South,Payment Problem
+T00778,2025-04-07,East,Payment Problem
+T00779,2025-05-28,North,Delivery Delay
+T00780,2026-03-09,West,Out of Stock
+T00781,2025-02-02,North,Out of Stock
+T00782,2025-04-11,South,Out of Stock
+T00783,2025-11-29,West,Out of Stock
+T00784,2026-01-12,North,Delivery Delay
+T00785,2025-05-15,West,Refund Request
+T00786,2026-02-14,East,Delivery Delay
+T00787,2026-02-21,South,Product Issue
+T00788,2025-04-15,North,Delivery Delay
+T00789,2025-11-23,South,Product Issue
+T00790,2026-01-12,West,Out of Stock
+T00791,2026-04-26,West,Out of Stock
+T00792,2026-04-30,East,Refund Request
+T00793,2025-09-14,North,Out of Stock
+T00794,2025-01-27,North,Product Issue
+T00795,2025-08-21,West,Refund Request
+T00796,2025-10-13,South,Out of Stock
+T00797,2026-02-10,North,Product Issue
+T00798,2025-10-17,East,Out of Stock
+T00799,2025-10-14,East,Product Issue
+T00800,2025-01-08,North,Refund Request
+T00801,2025-05-19,East,Refund Request
+T00802,2025-07-02,North,Refund Request
+T00803,2025-11-01,East,Payment Problem
+T00804,2025-08-14,South,Payment Problem
+T00805,2026-05-10,West,Product Issue
+T00806,2025-12-25,West,Refund Request
+T00807,2025-03-19,East,Out of Stock
+T00808,2025-12-18,South,Delivery Delay
+T00809,2026-01-24,East,Out of Stock
+T00810,2026-03-22,North,Delivery Delay
+T00811,2025-09-05,North,Refund Request
+T00812,2026-06-15,South,Out of Stock
+T00813,2025-12-11,North,Product Issue
+T00814,2025-08-08,West,Out of Stock
+T00815,2026-02-08,East,Product Issue
+T00816,2025-08-08,East,Out of Stock
+T00817,2025-02-01,East,Refund Request
+T00818,2025-08-22,North,Payment Problem
+T00819,2025-04-10,West,Payment Problem
+T00820,2026-02-07,North,Payment Problem
+T00821,2026-01-29,East,Product Issue
+T00822,2025-09-02,South,Payment Problem
+T00823,2025-04-13,East,Out of Stock
+T00824,2025-08-14,South,Refund Request
+T00825,2026-03-18,West,Product Issue
+T00826,2025-01-07,West,Payment Problem
+T00827,2025-12-19,North,Product Issue
+T00828,2026-02-21,North,Product Issue
+T00829,2025-07-15,North,Product Issue
+T00830,2025-07-27,West,Payment Problem
+T00831,2026-03-02,South,Payment Problem
+T00832,2025-12-29,North,Product Issue
+T00833,2025-03-19,East,Delivery Delay
+T00834,2025-10-11,North,Delivery Delay
+T00835,2026-01-11,West,Out of Stock
+T00836,2026-01-08,North,Payment Problem
+T00837,2025-09-01,South,Refund Request
+T00838,2025-02-08,North,Delivery Delay
+T00839,2025-03-27,East,Out of Stock
+T00840,2025-07-27,North,Payment Problem
+T00841,2025-01-01,North,Product Issue
+T00842,2026-02-14,South,Product Issue
+T00843,2025-03-25,South,Payment Problem
+T00844,2026-06-24,West,Product Issue
+T00845,2026-01-26,West,Payment Problem
+T00846,2025-10-31,South,Delivery Delay
+T00847,2025-05-15,West,Delivery Delay
+T00848,2025-04-25,South,Delivery Delay
+T00849,2026-06-25,West,Delivery Delay
+T00850,2026-02-28,South,Product Issue
+T00851,2026-02-23,East,Payment Problem
+T00852,2025-09-12,East,Payment Problem
+T00853,2025-04-08,South,Product Issue
+T00854,2026-03-23,East,Product Issue
+T00855,2025-12-25,East,Refund Request
+T00856,2026-06-14,East,Refund Request
+T00857,2025-07-23,South,Payment Problem
+T00858,2026-05-03,South,Out of Stock
+T00859,2025-10-11,North,Payment Problem
+T00860,2025-07-06,West,Delivery Delay
+T00861,2026-02-23,South,Product Issue
+T00862,2026-05-11,North,Out of Stock
+T00863,2025-04-26,North,Out of Stock
+T00864,2025-05-12,West,Product Issue
+T00865,2025-08-25,North,Out of Stock
+T00866,2025-02-08,East,Delivery Delay
+T00867,2025-04-16,West,Delivery Delay
+T00868,2025-12-20,South,Refund Request
+T00869,2025-09-22,West,Delivery Delay
+T00870,2026-04-09,North,Payment Problem
+T00871,2026-03-17,West,Out of Stock
+T00872,2026-06-18,East,Delivery Delay
+T00873,2026-05-10,South,Product Issue
+T00874,2025-11-12,West,Payment Problem
+T00875,2025-05-31,South,Payment Problem
+T00876,2025-11-07,South,Delivery Delay
+T00877,2026-05-15,West,Out of Stock
+T00878,2025-07-09,South,Refund Request
+T00879,2025-01-08,West,Refund Request
+T00880,2026-04-14,North,Out of Stock
+T00881,2026-03-27,East,Product Issue
+T00882,2025-10-14,North,Delivery Delay
+T00883,2026-06-18,West,Delivery Delay
+T00884,2026-04-29,East,Out of Stock
+T00885,2026-06-11,West,Product Issue
+T00886,2026-02-10,East,Delivery Delay
+T00887,2026-03-22,East,Refund Request
+T00888,2025-06-16,North,Refund Request
+T00889,2025-07-02,East,Out of Stock
+T00890,2025-05-29,West,Refund Request
+T00891,2025-02-28,South,Payment Problem
+T00892,2025-01-05,East,Payment Problem
+T00893,2026-01-18,North,Payment Problem
+T00894,2026-06-09,South,Delivery Delay
+T00895,2026-02-18,East,Out of Stock
+T00896,2026-04-09,East,Refund Request
+T00897,2026-06-11,North,Out of Stock
+T00898,2025-02-17,South,Refund Request
+T00899,2026-06-23,East,Product Issue
+T00900,2026-05-21,West,Delivery Delay
+T00901,2025-02-21,South,Payment Problem
+T00902,2025-12-03,East,Out of Stock
+T00903,2025-05-01,South,Refund Request
+T00904,2025-02-21,East,Refund Request
+T00905,2026-06-25,North,Product Issue
+T00906,2025-07-28,West,Product Issue
+T00907,2026-01-26,East,Payment Problem
+T00908,2025-12-05,West,Out of Stock
+T00909,2025-12-11,East,Payment Problem
+T00910,2026-03-21,North,Out of Stock
+T00911,2025-11-06,North,Out of Stock
+T00912,2026-04-23,South,Delivery Delay
+T00913,2025-02-21,South,Refund Request
+T00914,2025-08-31,West,Out of Stock
+T00915,2026-03-18,North,Payment Problem
+T00916,2025-04-29,North,Out of Stock
+T00917,2026-01-06,North,Delivery Delay
+T00918,2026-03-25,West,Delivery Delay
+T00919,2026-04-16,West,Product Issue
+T00920,2025-11-06,West,Out of Stock
+T00921,2025-02-13,North,Refund Request
+T00922,2026-01-23,South,Payment Problem
+T00923,2026-03-30,East,Payment Problem
+T00924,2026-03-14,South,Payment Problem
+T00925,2025-08-15,North,Out of Stock
+T00926,2025-06-04,West,Product Issue
+T00927,2025-01-07,East,Payment Problem
+T00928,2025-09-19,West,Refund Request
+T00929,2025-09-19,South,Out of Stock
+T00930,2026-03-21,South,Delivery Delay
+T00931,2026-01-01,North,Out of Stock
+T00932,2025-04-11,South,Payment Problem
+T00933,2025-06-18,North,Out of Stock
+T00934,2025-12-29,North,Product Issue
+T00935,2026-02-25,North,Refund Request
+T00936,2026-01-04,West,Delivery Delay
+T00937,2026-05-07,South,Delivery Delay
+T00938,2025-04-05,West,Out of Stock
+T00939,2026-01-31,West,Refund Request
+T00940,2025-02-23,West,Payment Problem
+T00941,2026-02-24,South,Refund Request
+T00942,2025-03-09,South,Payment Problem
+T00943,2025-06-24,West,Out of Stock
+T00944,2025-05-16,North,Delivery Delay
+T00945,2025-07-07,South,Payment Problem
+T00946,2025-01-09,West,Product Issue
+T00947,2026-03-20,South,Delivery Delay
+T00948,2026-03-22,West,Out of Stock
+T00949,2025-10-10,North,Payment Problem
+T00950,2025-01-25,West,Delivery Delay
+T00951,2026-05-31,West,Out of Stock
+T00952,2025-07-03,East,Payment Problem
+T00953,2025-12-25,West,Delivery Delay
+T00954,2025-12-16,North,Payment Problem
+T00955,2026-04-24,North,Product Issue
+T00956,2025-07-06,North,Refund Request
+T00957,2025-08-23,South,Payment Problem
+T00958,2025-08-20,South,Product Issue
+T00959,2025-12-31,South,Delivery Delay
+T00960,2026-04-13,North,Refund Request
+T00961,2025-10-01,West,Refund Request
+T00962,2025-07-03,South,Refund Request
+T00963,2025-07-13,East,Out of Stock
+T00964,2025-07-15,South,Delivery Delay
+T00965,2025-11-27,West,Out of Stock
+T00966,2026-05-14,West,Out of Stock
+T00967,2025-04-10,North,Refund Request
+T00968,2025-01-17,North,Out of Stock
+T00969,2025-05-06,South,Product Issue
+T00970,2026-06-19,South,Delivery Delay
+T00971,2026-06-08,North,Product Issue
+T00972,2025-02-26,South,Product Issue
+T00973,2025-12-05,South,Delivery Delay
+T00974,2025-05-13,West,Payment Problem
+T00975,2026-03-12,West,Product Issue
+T00976,2025-08-18,West,Product Issue
+T00977,2025-08-21,South,Product Issue
+T00978,2026-05-15,West,Product Issue
+T00979,2025-12-28,West,Delivery Delay
+T00980,2026-03-08,West,Delivery Delay
+T00981,2025-12-04,North,Out of Stock
+T00982,2026-01-31,South,Product Issue
+T00983,2026-03-28,West,Out of Stock
+T00984,2026-06-20,South,Delivery Delay
+T00985,2025-04-25,East,Out of Stock
+T00986,2025-08-14,South,Payment Problem
+T00987,2025-09-21,West,Payment Problem
+T00988,2025-06-30,North,Delivery Delay
+T00989,2025-04-24,South,Product Issue
+T00990,2025-12-08,South,Refund Request
+T00991,2025-05-23,East,Refund Request
+T00992,2026-03-29,East,Out of Stock
+T00993,2025-03-03,West,Out of Stock
+T00994,2025-10-03,East,Delivery Delay
+T00995,2025-12-30,East,Delivery Delay
+T00996,2026-01-09,South,Out of Stock
+T00997,2025-05-17,East,Out of Stock
+T00998,2025-02-04,West,Refund Request
+T00999,2026-05-07,South,Payment Problem
+T01000,2025-09-27,North,Payment Problem
+T01001,2025-11-20,East,Product Issue
+T01002,2026-05-02,East,Payment Problem
+T01003,2025-05-05,West,Delivery Delay
+T01004,2025-09-23,East,Out of Stock
+T01005,2025-11-11,West,Payment Problem
+T01006,2025-10-25,East,Out of Stock
+T01007,2026-05-03,South,Product Issue
+T01008,2026-01-10,North,Product Issue
+T01009,2025-04-22,South,Refund Request
+T01010,2025-11-20,East,Payment Problem
+T01011,2025-03-26,West,Payment Problem
+T01012,2026-05-23,West,Product Issue
+T01013,2026-01-29,East,Refund Request
+T01014,2025-06-30,West,Product Issue
+T01015,2025-09-20,South,Refund Request
+T01016,2025-01-30,South,Payment Problem
+T01017,2025-07-04,West,Refund Request
+T01018,2026-03-23,West,Product Issue
+T01019,2025-06-18,North,Product Issue
+T01020,2025-09-16,West,Refund Request
+T01021,2025-10-13,South,Refund Request
+T01022,2026-01-04,West,Out of Stock
+T01023,2025-04-10,North,Refund Request
+T01024,2026-03-23,West,Delivery Delay
+T01025,2026-04-27,North,Refund Request
+T01026,2025-02-08,South,Product Issue
+T01027,2025-01-09,West,Refund Request
+T01028,2025-05-19,South,Payment Problem
+T01029,2025-09-13,West,Payment Problem
+T01030,2025-09-14,South,Payment Problem
+T01031,2025-11-13,East,Product Issue
+T01032,2025-10-11,North,Payment Problem
+T01033,2025-12-02,West,Payment Problem
+T01034,2025-07-09,West,Product Issue
+T01035,2025-03-11,South,Refund Request
+T01036,2025-01-28,East,Delivery Delay
+T01037,2026-05-22,West,Delivery Delay
+T01038,2025-12-29,South,Payment Problem
+T01039,2026-05-06,East,Product Issue
+T01040,2025-07-16,South,Refund Request
+T01041,2025-05-18,South,Product Issue
+T01042,2025-12-07,South,Delivery Delay
+T01043,2025-05-31,East,Out of Stock
+T01044,2026-03-01,East,Refund Request
+T01045,2026-03-13,West,Delivery Delay
+T01046,2025-12-28,West,Out of Stock
+T01047,2025-06-26,East,Refund Request
+T01048,2025-11-01,East,Delivery Delay
+T01049,2025-07-24,East,Product Issue
+T01050,2025-08-08,West,Product Issue
+T01051,2025-08-28,East,Refund Request
+T01052,2026-04-19,West,Delivery Delay
+T01053,2026-04-10,East,Delivery Delay
+T01054,2025-12-22,West,Out of Stock
+T01055,2025-11-04,West,Delivery Delay
+T01056,2026-03-17,North,Payment Problem
+T01057,2026-04-30,East,Refund Request
+T01058,2025-09-15,South,Product Issue
+T01059,2025-06-19,North,Refund Request
+T01060,2025-04-21,West,Out of Stock
+T01061,2025-01-05,West,Refund Request
+T01062,2025-10-22,South,Refund Request
+T01063,2026-05-28,West,Product Issue
+T01064,2026-01-20,West,Delivery Delay
+T01065,2026-03-31,South,Refund Request
+T01066,2025-01-07,West,Payment Problem
+T01067,2025-11-28,East,Refund Request
+T01068,2025-12-01,West,Delivery Delay
+T01069,2025-10-15,West,Refund Request
+T01070,2025-04-14,East,Payment Problem
+T01071,2025-06-22,East,Delivery Delay
+T01072,2025-02-14,South,Payment Problem
+T01073,2026-02-21,West,Refund Request
+T01074,2026-04-01,South,Payment Problem
+T01075,2025-08-09,South,Product Issue
+T01076,2025-10-28,East,Refund Request
+T01077,2026-04-02,West,Delivery Delay
+T01078,2025-02-12,South,Delivery Delay
+T01079,2025-01-11,West,Out of Stock
+T01080,2025-08-13,North,Product Issue
+T01081,2025-01-16,South,Delivery Delay
+T01082,2026-05-29,North,Out of Stock
+T01083,2025-07-28,South,Delivery Delay
+T01084,2026-05-27,South,Out of Stock
+T01085,2025-11-27,North,Refund Request
+T01086,2025-11-21,South,Refund Request
+T01087,2026-04-07,South,Delivery Delay
+T01088,2025-09-06,East,Refund Request
+T01089,2026-06-09,North,Product Issue
+T01090,2025-04-01,North,Out of Stock
+T01091,2025-06-16,East,Product Issue
+T01092,2025-09-06,West,Payment Problem
+T01093,2025-12-06,South,Product Issue
+T01094,2025-04-19,South,Delivery Delay
+T01095,2026-03-02,West,Delivery Delay
+T01096,2025-12-08,East,Delivery Delay
+T01097,2025-07-20,South,Product Issue
+T01098,2026-02-19,North,Product Issue
+T01099,2026-01-25,South,Product Issue
+T01100,2026-01-18,West,Payment Problem
+T01101,2026-06-24,South,Payment Problem
+T01102,2025-05-26,West,Delivery Delay
+T01103,2025-05-08,West,Product Issue
+T01104,2026-02-20,West,Payment Problem
+T01105,2025-12-15,North,Product Issue
+T01106,2025-11-10,East,Delivery Delay
+T01107,2025-12-26,North,Product Issue
+T01108,2025-01-17,South,Product Issue
+T01109,2025-04-23,West,Refund Request
+T01110,2025-03-02,West,Delivery Delay
+T01111,2025-11-10,East,Out of Stock
+T01112,2026-06-01,South,Refund Request
+T01113,2025-01-21,South,Delivery Delay
+T01114,2025-08-19,South,Refund Request
+T01115,2025-03-19,North,Payment Problem
+T01116,2026-06-14,South,Product Issue
+T01117,2025-04-10,North,Delivery Delay
+T01118,2025-06-04,East,Payment Problem
+T01119,2026-01-11,South,Payment Problem
+T01120,2025-04-02,East,Payment Problem
+T01121,2026-02-10,North,Payment Problem
+T01122,2026-06-20,South,Delivery Delay
+T01123,2025-10-28,West,Refund Request
+T01124,2025-07-21,East,Payment Problem
+T01125,2025-01-24,West,Delivery Delay
+T01126,2025-12-21,South,Out of Stock
+T01127,2025-10-06,East,Payment Problem
+T01128,2025-10-21,East,Refund Request
+T01129,2026-03-04,West,Product Issue
+T01130,2025-10-04,North,Delivery Delay
+T01131,2025-10-20,North,Out of Stock
+T01132,2026-06-19,West,Delivery Delay
+T01133,2025-08-18,South,Refund Request
+T01134,2025-12-23,North,Payment Problem
+T01135,2025-01-21,South,Payment Problem
+T01136,2026-06-11,South,Delivery Delay
+T01137,2025-12-02,West,Payment Problem
+T01138,2025-01-04,North,Product Issue
+T01139,2026-06-22,South,Product Issue
+T01140,2025-12-26,West,Delivery Delay
+T01141,2025-03-19,West,Product Issue
+T01142,2025-03-09,East,Refund Request
+T01143,2026-05-11,East,Product Issue
+T01144,2025-01-20,South,Out of Stock
+T01145,2025-04-27,West,Payment Problem
+T01146,2026-03-26,West,Product Issue
+T01147,2025-11-25,East,Out of Stock
+T01148,2026-02-23,South,Refund Request
+T01149,2025-03-01,North,Refund Request
+T01150,2025-06-12,South,Product Issue
+T01151,2025-07-15,North,Delivery Delay
+T01152,2025-06-28,South,Refund Request
+T01153,2025-11-21,South,Payment Problem
+T01154,2025-04-25,North,Product Issue
+T01155,2025-04-25,West,Product Issue
+T01156,2025-11-19,North,Product Issue
+T01157,2026-04-05,East,Payment Problem
+T01158,2026-03-26,North,Refund Request
+T01159,2025-10-12,West,Delivery Delay
+T01160,2026-04-02,East,Out of Stock
+T01161,2026-01-19,West,Refund Request
+T01162,2026-02-11,North,Refund Request
+T01163,2026-04-21,South,Refund Request
+T01164,2025-09-08,West,Payment Problem
+T01165,2026-04-09,South,Product Issue
+T01166,2025-12-15,West,Payment Problem
+T01167,2026-05-05,North,Payment Problem
+T01168,2025-06-13,North,Out of Stock
+T01169,2026-03-04,West,Delivery Delay
+T01170,2026-01-10,West,Out of Stock
+T01171,2026-02-27,West,Out of Stock
+T01172,2025-03-19,West,Product Issue
+T01173,2025-02-07,East,Product Issue
+T01174,2025-06-20,South,Out of Stock
+T01175,2025-10-19,South,Refund Request
+T01176,2026-02-26,North,Payment Problem
+T01177,2025-09-05,East,Refund Request
+T01178,2026-01-08,South,Refund Request
+T01179,2025-11-11,North,Delivery Delay
+T01180,2026-06-23,West,Delivery Delay
+T01181,2026-05-11,North,Delivery Delay
+T01182,2026-01-28,West,Out of Stock
+T01183,2026-02-19,East,Delivery Delay
+T01184,2025-03-06,West,Product Issue
+T01185,2026-02-05,South,Payment Problem
+T01186,2026-02-24,North,Payment Problem
+T01187,2025-03-30,East,Out of Stock
+T01188,2025-12-23,South,Delivery Delay
+T01189,2026-06-02,North,Refund Request
+T01190,2025-09-24,West,Payment Problem
+T01191,2025-06-14,South,Delivery Delay
+T01192,2025-04-16,North,Delivery Delay
+T01193,2026-02-14,East,Payment Problem
+T01194,2025-07-20,South,Out of Stock
+T01195,2025-08-08,North,Delivery Delay
+T01196,2026-03-10,North,Delivery Delay
+T01197,2025-04-06,South,Out of Stock
+T01198,2026-05-25,West,Product Issue
+T01199,2025-10-06,East,Refund Request
+T01200,2025-10-04,West,Delivery Delay
+T01201,2025-04-02,West,Delivery Delay
+T01202,2025-12-07,North,Out of Stock
+T01203,2026-04-18,West,Delivery Delay
+T01204,2025-07-09,East,Refund Request
+T01205,2025-05-16,North,Product Issue
+T01206,2025-10-14,South,Payment Problem
+T01207,2026-02-24,North,Payment Problem
+T01208,2025-10-18,West,Product Issue
+T01209,2025-05-12,East,Out of Stock
+T01210,2026-06-23,East,Product Issue
+T01211,2025-10-09,West,Out of Stock
+T01212,2025-07-18,East,Out of Stock
+T01213,2025-10-26,East,Product Issue
+T01214,2025-04-20,East,Out of Stock
+T01215,2026-05-28,West,Delivery Delay
+T01216,2026-05-19,West,Product Issue
+T01217,2026-02-23,North,Product Issue
+T01218,2025-08-15,East,Out of Stock
+T01219,2025-01-27,West,Out of Stock
+T01220,2025-05-07,West,Delivery Delay
+T01221,2026-01-30,East,Delivery Delay
+T01222,2025-12-07,South,Product Issue
+T01223,2026-01-03,North,Product Issue
+T01224,2025-03-27,South,Delivery Delay
+T01225,2025-03-26,East,Refund Request
+T01226,2026-01-22,East,Refund Request
+T01227,2026-03-23,West,Delivery Delay
+T01228,2025-04-08,East,Product Issue
+T01229,2025-02-24,North,Delivery Delay
+T01230,2026-06-18,East,Out of Stock
+T01231,2026-05-04,South,Out of Stock
+T01232,2025-04-10,South,Refund Request
+T01233,2025-01-23,North,Out of Stock
+T01234,2025-04-23,North,Refund Request
+T01235,2025-06-13,North,Product Issue
+T01236,2026-02-02,West,Out of Stock
+T01237,2025-10-04,North,Payment Problem
+T01238,2026-05-03,West,Delivery Delay
+T01239,2025-11-03,South,Product Issue
+T01240,2025-12-07,North,Delivery Delay
+T01241,2025-12-30,West,Product Issue
+T01242,2026-05-26,East,Out of Stock
+T01243,2025-07-29,West,Product Issue
+T01244,2025-08-22,South,Product Issue
+T01245,2026-03-09,West,Product Issue
+T01246,2025-11-14,West,Delivery Delay
+T01247,2025-03-21,East,Delivery Delay
+T01248,2025-10-12,West,Out of Stock
+T01249,2025-11-14,South,Payment Problem
+T01250,2025-09-04,North,Payment Problem
+T01251,2025-12-10,West,Delivery Delay
+T01252,2026-06-11,West,Delivery Delay
+T01253,2025-01-28,East,Product Issue
+T01254,2026-01-19,South,Out of Stock
+T01255,2025-02-06,West,Payment Problem
+T01256,2026-01-07,West,Payment Problem
+T01257,2026-04-10,South,Payment Problem
+T01258,2025-08-04,East,Payment Problem
+T01259,2025-11-23,North,Out of Stock
+T01260,2025-09-04,North,Product Issue
+T01261,2025-03-29,South,Payment Problem
+T01262,2025-07-19,East,Out of Stock
+T01263,2025-12-01,South,Product Issue
+T01264,2025-08-04,North,Product Issue
+T01265,2025-09-12,North,Delivery Delay
+T01266,2026-05-20,South,Product Issue
+T01267,2026-04-15,South,Payment Problem
+T01268,2026-05-28,West,Out of Stock
+T01269,2026-05-28,North,Refund Request
+T01270,2025-09-04,North,Delivery Delay
+T01271,2026-03-04,South,Payment Problem
+T01272,2026-01-31,North,Delivery Delay
+T01273,2025-05-16,South,Refund Request
+T01274,2025-12-15,East,Product Issue
+T01275,2025-05-20,South,Refund Request
+T01276,2025-07-23,South,Product Issue
+T01277,2025-07-15,East,Out of Stock
+T01278,2026-06-03,South,Out of Stock
+T01279,2026-04-17,South,Out of Stock
+T01280,2025-02-14,South,Out of Stock
+T01281,2025-12-07,South,Payment Problem
+T01282,2025-07-12,South,Product Issue
+T01283,2025-05-12,West,Payment Problem
+T01284,2026-04-13,South,Delivery Delay
+T01285,2025-09-22,East,Payment Problem
+T01286,2026-02-09,East,Out of Stock
+T01287,2026-04-16,West,Out of Stock
+T01288,2025-12-15,East,Payment Problem
+T01289,2026-04-27,North,Out of Stock
+T01290,2026-01-18,West,Product Issue
+T01291,2025-02-24,West,Payment Problem
+T01292,2026-06-09,West,Product Issue
+T01293,2026-05-07,South,Payment Problem
+T01294,2025-06-04,East,Product Issue
+T01295,2025-12-09,North,Out of Stock
+T01296,2026-03-17,North,Refund Request
+T01297,2025-04-13,West,Refund Request
+T01298,2026-03-23,East,Out of Stock
+T01299,2026-04-24,North,Refund Request
+T01300,2026-05-09,North,Refund Request
+T01301,2025-04-08,South,Refund Request
+T01302,2025-08-20,West,Product Issue
+T01303,2025-03-13,West,Out of Stock
+T01304,2025-08-10,West,Refund Request
+T01305,2025-11-21,South,Out of Stock
+T01306,2025-06-16,East,Refund Request
+T01307,2026-01-02,South,Out of Stock
+T01308,2026-06-12,East,Refund Request
+T01309,2025-09-12,South,Refund Request
+T01310,2025-07-19,West,Payment Problem
+T01311,2025-01-31,South,Delivery Delay
+T01312,2026-05-01,East,Refund Request
+T01313,2026-05-09,South,Payment Problem
+T01314,2025-12-02,North,Refund Request
+T01315,2025-02-11,West,Delivery Delay
+T01316,2025-07-29,South,Product Issue
+T01317,2025-12-19,South,Payment Problem
+T01318,2025-12-03,West,Payment Problem
+T01319,2025-04-15,South,Out of Stock
+T01320,2025-04-09,South,Payment Problem
+T01321,2025-02-12,East,Refund Request
+T01322,2025-09-26,East,Product Issue
+T01323,2025-07-14,West,Out of Stock
+T01324,2025-03-06,North,Delivery Delay
+T01325,2025-08-30,East,Payment Problem
+T01326,2025-01-03,South,Refund Request
+T01327,2025-11-01,South,Out of Stock
+T01328,2026-02-15,South,Refund Request
+T01329,2025-03-12,South,Refund Request
+T01330,2026-02-10,East,Refund Request
+T01331,2025-01-22,East,Refund Request
+T01332,2025-10-22,North,Refund Request
+T01333,2025-12-25,North,Delivery Delay
+T01334,2026-06-02,North,Delivery Delay
+T01335,2025-06-11,East,Out of Stock
+T01336,2025-06-07,North,Product Issue
+T01337,2025-11-05,West,Refund Request
+T01338,2025-02-24,East,Payment Problem
+T01339,2026-05-25,South,Refund Request
+T01340,2025-02-14,East,Product Issue
+T01341,2025-03-27,South,Out of Stock
+T01342,2025-09-21,West,Delivery Delay
+T01343,2025-08-04,South,Delivery Delay
+T01344,2026-06-01,East,Payment Problem
+T01345,2026-05-28,West,Out of Stock
+T01346,2025-04-11,West,Delivery Delay
+T01347,2025-11-01,North,Delivery Delay
+T01348,2025-12-17,East,Payment Problem
+T01349,2025-09-26,West,Refund Request
+T01350,2025-02-07,South,Product Issue
+T01351,2025-03-04,North,Delivery Delay
+T01352,2025-09-22,West,Delivery Delay
+T01353,2026-05-10,East,Product Issue
+T01354,2025-11-27,West,Out of Stock
+T01355,2026-03-02,East,Delivery Delay
+T01356,2026-05-15,West,Out of Stock
+T01357,2025-02-06,South,Product Issue
+T01358,2026-02-01,South,Out of Stock
+T01359,2025-01-22,West,Payment Problem
+T01360,2025-07-22,South,Product Issue
+T01361,2025-01-15,South,Refund Request
+T01362,2025-06-09,North,Out of Stock
+T01363,2025-09-29,West,Product Issue
+T01364,2026-05-04,West,Product Issue
+T01365,2025-11-14,South,Payment Problem
+T01366,2026-03-16,West,Product Issue
+T01367,2025-09-30,South,Refund Request
+T01368,2025-06-14,West,Payment Problem
+T01369,2026-02-22,North,Refund Request
+T01370,2025-09-24,South,Product Issue
+T01371,2025-07-07,East,Product Issue
+T01372,2026-01-29,South,Out of Stock
+T01373,2025-01-26,South,Delivery Delay
+T01374,2026-05-30,West,Out of Stock
+T01375,2025-10-07,South,Payment Problem
+T01376,2025-02-02,South,Out of Stock
+T01377,2025-10-18,North,Product Issue
+T01378,2025-10-31,East,Out of Stock
+T01379,2026-04-25,East,Out of Stock
+T01380,2025-05-18,East,Out of Stock
+T01381,2025-05-31,West,Refund Request
+T01382,2025-11-15,North,Refund Request
+T01383,2025-09-25,South,Payment Problem
+T01384,2025-03-22,North,Out of Stock
+T01385,2025-06-03,North,Refund Request
+T01386,2026-05-17,East,Delivery Delay
+T01387,2026-05-22,West,Product Issue
+T01388,2025-11-21,East,Payment Problem
+T01389,2025-05-06,South,Payment Problem
+T01390,2026-04-07,North,Delivery Delay
+T01391,2026-01-06,East,Payment Problem
+T01392,2026-04-14,South,Delivery Delay
+T01393,2025-04-04,East,Out of Stock
+T01394,2025-01-12,South,Product Issue
+T01395,2026-02-24,West,Delivery Delay
+T01396,2025-06-16,South,Payment Problem
+T01397,2025-10-21,West,Delivery Delay
+T01398,2025-08-14,South,Payment Problem
+T01399,2025-10-11,East,Product Issue
+T01400,2025-04-21,West,Refund Request
+T01401,2025-03-21,South,Out of Stock
+T01402,2025-11-24,South,Out of Stock
+T01403,2025-09-08,East,Product Issue
+T01404,2025-09-30,East,Payment Problem
+T01405,2026-02-11,West,Refund Request
+T01406,2025-10-02,East,Product Issue
+T01407,2025-11-23,West,Refund Request
+T01408,2025-01-03,South,Refund Request
+T01409,2025-07-04,South,Product Issue
+T01410,2026-04-25,East,Refund Request
+T01411,2025-10-25,East,Product Issue
+T01412,2026-04-17,South,Refund Request
+T01413,2025-03-23,South,Out of Stock
+T01414,2025-06-13,West,Product Issue
+T01415,2025-04-30,East,Out of Stock
+T01416,2026-06-30,South,Delivery Delay
+T01417,2025-11-22,West,Delivery Delay
+T01418,2026-01-29,West,Product Issue
+T01419,2026-02-21,East,Refund Request
+T01420,2026-05-07,North,Payment Problem
+T01421,2026-02-26,East,Delivery Delay
+T01422,2025-05-25,North,Payment Problem
+T01423,2025-10-20,East,Product Issue
+T01424,2026-04-11,North,Product Issue
+T01425,2026-04-04,North,Product Issue
+T01426,2026-03-01,North,Payment Problem
+T01427,2025-03-09,North,Product Issue
+T01428,2025-10-27,West,Out of Stock
+T01429,2025-10-19,North,Out of Stock
+T01430,2025-02-19,South,Delivery Delay
+T01431,2025-07-02,East,Product Issue
+T01432,2025-03-13,South,Out of Stock
+T01433,2025-10-18,West,Out of Stock
+T01434,2025-11-09,East,Product Issue
+T01435,2026-05-23,East,Delivery Delay
+T01436,2025-05-07,West,Product Issue
+T01437,2026-06-13,West,Delivery Delay
+T01438,2025-08-27,West,Product Issue
+T01439,2025-12-25,North,Refund Request
+T01440,2025-02-02,North,Out of Stock
+T01441,2025-05-31,East,Product Issue
+T01442,2025-05-12,West,Delivery Delay
+T01443,2025-01-29,South,Refund Request
+T01444,2025-12-17,South,Out of Stock
+T01445,2026-02-12,West,Delivery Delay
+T01446,2025-11-16,South,Delivery Delay
+T01447,2025-09-27,East,Out of Stock
+T01448,2025-02-06,North,Delivery Delay
+T01449,2026-05-01,South,Payment Problem
+T01450,2025-03-17,South,Product Issue
+T01451,2026-05-13,East,Refund Request
+T01452,2025-12-30,North,Payment Problem
+T01453,2025-02-02,North,Out of Stock
+T01454,2025-09-24,North,Payment Problem
+T01455,2025-08-13,East,Product Issue
+T01456,2025-01-05,North,Delivery Delay
+T01457,2025-02-27,West,Payment Problem
+T01458,2026-06-25,North,Product Issue
+T01459,2025-10-04,West,Payment Problem
+T01460,2026-06-06,South,Product Issue
+T01461,2025-06-06,West,Refund Request
+T01462,2025-08-17,West,Payment Problem
+T01463,2025-08-17,East,Out of Stock
+T01464,2025-10-09,North,Refund Request
+T01465,2026-06-13,East,Out of Stock
+T01466,2025-06-19,South,Product Issue
+T01467,2026-03-30,North,Product Issue
+T01468,2025-07-21,North,Payment Problem
+T01469,2025-08-21,East,Payment Problem
+T01470,2025-09-10,East,Out of Stock
+T01471,2026-03-20,North,Out of Stock
+T01472,2025-03-05,North,Product Issue
+T01473,2025-03-13,North,Delivery Delay
+T01474,2025-11-26,West,Payment Problem
+T01475,2026-02-19,West,Out of Stock
+T01476,2025-12-15,North,Delivery Delay
+T01477,2026-05-22,East,Product Issue
+T01478,2025-09-07,North,Delivery Delay
+T01479,2025-12-17,North,Payment Problem
+T01480,2025-03-24,North,Payment Problem
+T01481,2025-03-21,East,Product Issue
+T01482,2025-09-16,South,Out of Stock
+T01483,2026-06-19,North,Delivery Delay
+T01484,2025-10-16,South,Out of Stock
+T01485,2025-01-24,East,Product Issue
+T01486,2025-02-21,East,Out of Stock
+T01487,2025-12-11,South,Product Issue
+T01488,2026-03-12,North,Out of Stock
+T01489,2025-11-16,East,Product Issue
+T01490,2025-10-12,North,Delivery Delay
+T01491,2026-06-25,South,Refund Request
+T01492,2025-09-14,West,Refund Request
+T01493,2025-07-02,South,Product Issue
+T01494,2026-01-02,West,Payment Problem
+T01495,2025-10-12,South,Payment Problem
+T01496,2025-06-22,North,Payment Problem
+T01497,2025-11-26,West,Refund Request
+T01498,2026-04-16,North,Delivery Delay
+T01499,2026-03-17,East,Out of Stock
+T01500,2026-03-14,North,Product Issue
+T01501,2026-03-24,East,Out of Stock
+T01502,2026-04-06,West,Product Issue
+T01503,2026-05-30,North,Refund Request
+T01504,2026-02-14,West,Out of Stock
+T01505,2025-03-13,South,Product Issue
+T01506,2025-03-14,East,Refund Request
+T01507,2025-11-06,East,Payment Problem
+T01508,2025-08-24,South,Delivery Delay
+T01509,2025-08-18,South,Product Issue
+T01510,2025-12-21,South,Product Issue
+T01511,2025-07-18,North,Refund Request
+T01512,2026-04-20,West,Out of Stock
+T01513,2025-12-08,South,Refund Request
+T01514,2026-03-02,North,Payment Problem
+T01515,2025-01-17,East,Out of Stock
+T01516,2025-07-10,East,Out of Stock
+T01517,2026-05-12,East,Out of Stock
+T01518,2025-03-23,West,Refund Request
+T01519,2025-04-22,East,Product Issue
+T01520,2025-02-20,South,Delivery Delay
+T01521,2025-10-08,North,Out of Stock
+T01522,2025-03-19,North,Out of Stock
+T01523,2025-02-14,North,Delivery Delay
+T01524,2025-03-04,East,Payment Problem
+T01525,2025-06-06,East,Refund Request
+T01526,2025-06-18,West,Payment Problem
+T01527,2025-05-21,East,Payment Problem
+T01528,2025-07-12,East,Out of Stock
+T01529,2026-01-21,West,Refund Request
+T01530,2026-01-23,South,Delivery Delay
+T01531,2025-06-21,North,Delivery Delay
+T01532,2026-03-07,North,Delivery Delay
+T01533,2025-04-16,South,Delivery Delay
+T01534,2025-12-14,North,Product Issue
+T01535,2025-02-17,South,Payment Problem
+T01536,2026-04-22,North,Payment Problem
+T01537,2025-09-02,West,Payment Problem
+T01538,2026-05-16,East,Product Issue
+T01539,2025-09-12,South,Product Issue
+T01540,2025-01-02,East,Refund Request
+T01541,2025-11-21,North,Payment Problem
+T01542,2025-05-09,East,Delivery Delay
+T01543,2025-05-26,North,Delivery Delay
+T01544,2025-04-06,North,Payment Problem
+T01545,2026-02-08,West,Out of Stock
+T01546,2025-04-12,South,Product Issue
+T01547,2026-05-05,North,Payment Problem
+T01548,2025-07-19,North,Product Issue
+T01549,2025-12-16,South,Payment Problem
+T01550,2025-11-27,North,Out of Stock
+T01551,2025-07-16,South,Out of Stock
+T01552,2025-01-30,East,Payment Problem
+T01553,2025-05-13,West,Out of Stock
+T01554,2025-11-04,North,Payment Problem
+T01555,2025-02-10,West,Product Issue
+T01556,2026-04-17,East,Out of Stock
+T01557,2026-04-04,South,Out of Stock
+T01558,2025-02-10,South,Product Issue
+T01559,2025-01-09,North,Out of Stock
+T01560,2025-05-08,East,Out of Stock
+T01561,2026-06-09,West,Out of Stock
+T01562,2025-05-20,South,Refund Request
+T01563,2025-03-29,South,Out of Stock
+T01564,2025-07-20,South,Out of Stock
+T01565,2025-12-27,West,Out of Stock
+T01566,2025-06-26,West,Product Issue
+T01567,2025-01-22,North,Delivery Delay
+T01568,2026-01-08,West,Product Issue
+T01569,2026-03-03,West,Delivery Delay
+T01570,2026-05-17,North,Payment Problem
+T01571,2026-03-16,South,Delivery Delay
+T01572,2026-02-10,South,Payment Problem
+T01573,2026-06-27,North,Out of Stock
+T01574,2026-02-07,South,Refund Request
+T01575,2025-03-17,East,Refund Request
+T01576,2026-03-26,East,Payment Problem
+T01577,2025-12-24,East,Delivery Delay
+T01578,2026-02-18,North,Payment Problem
+T01579,2026-04-21,West,Out of Stock
+T01580,2025-06-01,South,Product Issue
+T01581,2025-06-16,North,Out of Stock
+T01582,2025-08-17,North,Out of Stock
+T01583,2025-10-26,West,Payment Problem
+T01584,2025-04-07,South,Payment Problem
+T01585,2025-10-23,South,Payment Problem
+T01586,2026-03-23,East,Out of Stock
+T01587,2025-10-02,West,Delivery Delay
+T01588,2026-03-03,South,Product Issue
+T01589,2025-12-27,East,Product Issue
+T01590,2025-12-22,East,Refund Request
+T01591,2025-02-16,West,Payment Problem
+T01592,2026-01-10,East,Refund Request
+T01593,2025-05-06,East,Product Issue
+T01594,2025-12-26,South,Payment Problem
+T01595,2025-12-28,East,Out of Stock
+T01596,2025-09-21,West,Payment Problem
+T01597,2026-01-31,North,Product Issue
+T01598,2026-05-07,North,Out of Stock
+T01599,2026-01-12,West,Payment Problem
+T01600,2026-06-25,East,Refund Request
+T01601,2025-08-13,West,Payment Problem
+T01602,2025-10-16,North,Delivery Delay
+T01603,2026-04-29,South,Out of Stock
+T01604,2025-11-09,North,Product Issue
+T01605,2025-02-26,East,Product Issue
+T01606,2025-11-06,East,Out of Stock
+T01607,2025-01-06,East,Delivery Delay
+T01608,2025-01-02,West,Payment Problem
+T01609,2026-01-10,South,Product Issue
+T01610,2025-08-13,South,Product Issue
+T01611,2026-06-02,South,Out of Stock
+T01612,2025-04-20,North,Delivery Delay
+T01613,2025-01-30,South,Delivery Delay
+T01614,2025-08-25,East,Product Issue
+T01615,2025-05-29,South,Out of Stock
+T01616,2026-03-09,West,Out of Stock
+T01617,2026-06-20,South,Out of Stock
+T01618,2026-06-23,East,Payment Problem
+T01619,2025-10-03,West,Out of Stock
+T01620,2025-04-05,East,Product Issue
+T01621,2026-02-06,North,Out of Stock
+T01622,2025-11-22,West,Refund Request
+T01623,2026-05-28,East,Payment Problem
+T01624,2025-02-25,West,Product Issue
+T01625,2026-06-03,West,Product Issue
+T01626,2026-04-15,West,Product Issue
+T01627,2026-01-01,North,Delivery Delay
+T01628,2025-08-17,North,Payment Problem
+T01629,2025-04-29,East,Payment Problem
+T01630,2025-01-24,South,Out of Stock
+T01631,2025-11-03,South,Delivery Delay
+T01632,2026-05-09,West,Product Issue
+T01633,2025-03-30,East,Refund Request
+T01634,2026-04-25,South,Delivery Delay
+T01635,2025-12-21,South,Out of Stock
+T01636,2025-08-18,West,Payment Problem
+T01637,2025-10-04,East,Refund Request
+T01638,2025-10-02,North,Product Issue
+T01639,2026-02-18,West,Product Issue
+T01640,2025-08-31,South,Refund Request
+T01641,2025-08-14,South,Product Issue
+T01642,2025-11-15,East,Delivery Delay
+T01643,2025-09-05,West,Delivery Delay
+T01644,2026-04-21,South,Out of Stock
+T01645,2025-01-13,North,Delivery Delay
+T01646,2026-03-07,West,Product Issue
+T01647,2025-02-03,West,Delivery Delay
+T01648,2025-05-13,West,Delivery Delay
+T01649,2025-08-09,North,Payment Problem
+T01650,2025-03-01,North,Out of Stock
+T01651,2026-01-28,North,Refund Request
+T01652,2025-01-14,East,Product Issue
+T01653,2025-05-31,South,Payment Problem
+T01654,2025-12-11,West,Out of Stock
+T01655,2026-06-28,North,Product Issue
+T01656,2025-07-11,South,Refund Request
+T01657,2025-08-05,North,Product Issue
+T01658,2026-04-30,North,Refund Request
+T01659,2026-02-25,North,Delivery Delay
+T01660,2026-02-15,North,Payment Problem
+T01661,2025-06-21,East,Payment Problem
+T01662,2026-04-05,North,Delivery Delay
+T01663,2026-05-05,West,Delivery Delay
+T01664,2026-06-10,South,Refund Request
+T01665,2025-10-18,South,Refund Request
+T01666,2026-05-19,East,Out of Stock
+T01667,2026-03-04,East,Product Issue
+T01668,2026-05-28,West,Product Issue
+T01669,2025-02-20,West,Out of Stock
+T01670,2026-04-09,East,Payment Problem
+T01671,2025-08-25,East,Refund Request
+T01672,2025-10-25,South,Out of Stock
+T01673,2025-05-19,East,Delivery Delay
+T01674,2025-11-22,South,Delivery Delay
+T01675,2025-10-27,West,Delivery Delay
+T01676,2025-01-15,North,Product Issue
+T01677,2025-11-14,West,Product Issue
+T01678,2026-04-07,North,Delivery Delay
+T01679,2026-06-01,East,Refund Request
+T01680,2025-06-18,North,Refund Request
+T01681,2025-05-17,East,Product Issue
+T01682,2026-04-08,South,Product Issue
+T01683,2025-12-21,North,Delivery Delay
+T01684,2026-04-21,North,Payment Problem
+T01685,2026-06-19,East,Product Issue
+T01686,2026-03-06,North,Product Issue
+T01687,2025-09-10,East,Payment Problem
+T01688,2026-04-27,South,Refund Request
+T01689,2026-05-26,North,Product Issue
+T01690,2025-09-27,North,Delivery Delay
+T01691,2025-10-22,North,Payment Problem
+T01692,2026-04-17,North,Delivery Delay
+T01693,2025-02-14,East,Out of Stock
+T01694,2026-05-19,West,Delivery Delay
+T01695,2025-03-06,East,Delivery Delay
+T01696,2025-08-12,North,Delivery Delay
+T01697,2025-10-12,South,Product Issue
+T01698,2025-07-19,West,Payment Problem
+T01699,2026-05-13,East,Refund Request
+T01700,2025-01-03,South,Delivery Delay
+T01701,2025-01-05,East,Delivery Delay
+T01702,2025-10-07,East,Out of Stock
+T01703,2025-08-26,North,Refund Request
+T01704,2025-06-27,South,Product Issue
+T01705,2026-03-13,North,Payment Problem
+T01706,2025-11-11,West,Delivery Delay
+T01707,2025-01-17,North,Out of Stock
+T01708,2026-03-23,East,Out of Stock
+T01709,2025-01-29,South,Product Issue
+T01710,2025-04-11,North,Product Issue
+T01711,2026-04-15,North,Delivery Delay
+T01712,2025-03-23,West,Out of Stock
+T01713,2025-05-16,North,Refund Request
+T01714,2026-01-12,West,Product Issue
+T01715,2026-02-08,East,Delivery Delay
+T01716,2025-12-11,West,Payment Problem
+T01717,2026-02-28,West,Out of Stock
+T01718,2025-09-23,East,Out of Stock
+T01719,2025-01-20,West,Product Issue
+T01720,2025-01-11,West,Refund Request
+T01721,2026-02-05,South,Payment Problem
+T01722,2025-02-01,West,Delivery Delay
+T01723,2026-06-21,South,Refund Request
+T01724,2025-10-21,North,Out of Stock
+T01725,2025-12-10,North,Out of Stock
+T01726,2026-02-27,East,Refund Request
+T01727,2025-07-13,South,Out of Stock
+T01728,2025-09-28,South,Payment Problem
+T01729,2026-03-26,West,Out of Stock
+T01730,2026-04-27,West,Product Issue
+T01731,2026-06-01,East,Delivery Delay
+T01732,2025-08-17,West,Payment Problem
+T01733,2026-03-31,South,Payment Problem
+T01734,2026-01-09,West,Product Issue
+T01735,2026-01-09,East,Delivery Delay
+T01736,2025-04-22,North,Refund Request
+T01737,2025-05-31,South,Refund Request
+T01738,2025-09-12,South,Product Issue
+T01739,2025-03-11,North,Product Issue
+T01740,2026-02-06,East,Refund Request
+T01741,2025-07-31,South,Refund Request
+T01742,2025-12-04,North,Refund Request
+T01743,2026-05-02,North,Refund Request
+T01744,2025-04-09,South,Payment Problem
+T01745,2026-04-05,South,Payment Problem
+T01746,2025-01-20,East,Product Issue
+T01747,2025-03-20,South,Product Issue
+T01748,2025-09-03,East,Payment Problem
+T01749,2026-04-17,East,Product Issue
+T01750,2025-05-21,North,Delivery Delay
+T01751,2025-05-01,East,Product Issue
+T01752,2026-05-09,West,Delivery Delay
+T01753,2026-04-29,South,Product Issue
+T01754,2025-07-29,South,Delivery Delay
+T01755,2025-06-03,West,Refund Request
+T01756,2026-06-17,East,Out of Stock
+T01757,2025-11-06,South,Out of Stock
+T01758,2025-10-27,North,Out of Stock
+T01759,2025-06-18,West,Delivery Delay
+T01760,2026-01-24,North,Payment Problem
+T01761,2025-01-11,North,Payment Problem
+T01762,2025-03-27,West,Payment Problem
+T01763,2025-05-18,North,Payment Problem
+T01764,2025-12-04,West,Delivery Delay
+T01765,2025-09-18,West,Refund Request
+T01766,2025-03-22,North,Refund Request
+T01767,2026-03-03,South,Product Issue
+T01768,2025-07-25,West,Refund Request
+T01769,2025-08-31,West,Refund Request
+T01770,2026-01-30,East,Refund Request
+T01771,2025-12-03,East,Product Issue
+T01772,2025-10-06,North,Delivery Delay
+T01773,2025-01-30,East,Payment Problem
+T01774,2025-05-11,West,Out of Stock
+T01775,2026-01-30,West,Refund Request
+T01776,2025-04-27,North,Refund Request
+T01777,2025-08-24,South,Product Issue
+T01778,2026-03-03,South,Refund Request
+T01779,2025-06-29,North,Delivery Delay
+T01780,2026-01-31,North,Delivery Delay
+T01781,2025-01-08,West,Payment Problem
+T01782,2025-10-14,South,Product Issue
+T01783,2025-01-31,West,Out of Stock
+T01784,2025-09-01,West,Delivery Delay
+T01785,2026-06-25,South,Out of Stock
+T01786,2025-04-14,West,Payment Problem
+T01787,2026-06-07,North,Refund Request
+T01788,2026-05-03,East,Delivery Delay
+T01789,2025-05-10,West,Product Issue
+T01790,2026-05-17,East,Payment Problem
+T01791,2026-02-10,South,Out of Stock
+T01792,2025-01-25,West,Delivery Delay
+T01793,2025-06-09,North,Refund Request
+T01794,2026-05-05,West,Out of Stock
+T01795,2025-05-05,South,Product Issue
+T01796,2026-01-15,West,Out of Stock
+T01797,2026-02-19,East,Payment Problem
+T01798,2025-07-13,East,Out of Stock
+T01799,2025-01-21,East,Refund Request
+T01800,2026-02-03,South,Payment Problem
+T01801,2025-05-09,North,Payment Problem
+T01802,2025-01-27,North,Delivery Delay
+T01803,2025-10-22,East,Out of Stock
+T01804,2025-06-05,West,Refund Request
+T01805,2026-05-15,North,Refund Request
+T01806,2026-01-21,West,Product Issue
+T01807,2025-09-05,East,Out of Stock
+T01808,2026-05-25,East,Payment Problem
+T01809,2025-03-28,West,Product Issue
+T01810,2025-07-28,East,Product Issue
+T01811,2025-09-15,North,Delivery Delay
+T01812,2026-02-04,North,Out of Stock
+T01813,2025-10-28,South,Payment Problem
+T01814,2025-02-20,East,Payment Problem
+T01815,2025-08-23,South,Payment Problem
+T01816,2026-04-20,North,Out of Stock
+T01817,2026-04-26,North,Out of Stock
+T01818,2026-03-01,North,Delivery Delay
+T01819,2026-05-21,West,Delivery Delay
+T01820,2025-01-14,South,Refund Request
+T01821,2025-06-29,East,Delivery Delay
+T01822,2026-04-20,South,Payment Problem
+T01823,2026-06-08,East,Refund Request
+T01824,2026-02-15,East,Out of Stock
+T01825,2026-06-07,East,Delivery Delay
+T01826,2025-09-29,South,Product Issue
+T01827,2025-05-21,North,Delivery Delay
+T01828,2026-02-14,North,Product Issue
+T01829,2026-01-05,North,Refund Request
+T01830,2025-06-06,West,Refund Request
+T01831,2026-01-11,South,Out of Stock
+T01832,2026-03-01,West,Product Issue
+T01833,2026-04-14,East,Refund Request
+T01834,2025-09-19,South,Product Issue
+T01835,2026-05-12,West,Out of Stock
+T01836,2025-05-22,West,Payment Problem
+T01837,2025-11-10,North,Delivery Delay
+T01838,2025-02-25,East,Delivery Delay
+T01839,2026-05-15,North,Out of Stock
+T01840,2025-06-13,North,Refund Request
+T01841,2025-03-22,South,Delivery Delay
+T01842,2025-02-21,South,Product Issue
+T01843,2026-05-23,North,Refund Request
+T01844,2025-01-14,North,Delivery Delay
+T01845,2025-07-20,North,Delivery Delay
+T01846,2025-05-13,South,Out of Stock
+T01847,2025-04-29,East,Payment Problem
+T01848,2026-05-01,East,Product Issue
+T01849,2025-12-01,South,Refund Request
+T01850,2025-08-19,East,Out of Stock
+T01851,2025-01-03,West,Refund Request
+T01852,2025-03-22,West,Payment Problem
+T01853,2026-01-23,East,Delivery Delay
+T01854,2025-08-07,West,Payment Problem
+T01855,2026-01-16,West,Delivery Delay
+T01856,2025-09-05,South,Product Issue
+T01857,2025-01-22,South,Payment Problem
+T01858,2026-05-24,North,Product Issue
+T01859,2026-03-05,North,Payment Problem
+T01860,2025-12-04,South,Refund Request
+T01861,2026-04-07,East,Product Issue
+T01862,2026-01-11,East,Delivery Delay
+T01863,2025-02-25,East,Payment Problem
+T01864,2026-05-31,North,Delivery Delay
+T01865,2026-03-09,East,Refund Request
+T01866,2025-11-03,South,Delivery Delay
+T01867,2025-01-24,West,Out of Stock
+T01868,2025-08-26,South,Delivery Delay
+T01869,2026-05-07,West,Product Issue
+T01870,2026-02-04,West,Out of Stock
+T01871,2026-04-28,East,Refund Request
+T01872,2026-02-04,North,Refund Request
+T01873,2026-01-13,West,Product Issue
+T01874,2026-03-26,West,Out of Stock
+T01875,2025-04-15,South,Out of Stock
+T01876,2026-04-30,East,Refund Request
+T01877,2025-02-23,North,Product Issue
+T01878,2025-04-07,West,Delivery Delay
+T01879,2025-07-04,North,Refund Request
+T01880,2025-05-05,South,Out of Stock
+T01881,2025-07-10,South,Refund Request
+T01882,2025-07-18,West,Delivery Delay
+T01883,2025-07-25,South,Payment Problem
+T01884,2026-01-08,South,Payment Problem
+T01885,2026-01-19,North,Refund Request
+T01886,2025-07-18,South,Out of Stock
+T01887,2026-06-09,East,Out of Stock
+T01888,2025-09-11,South,Out of Stock
+T01889,2025-12-19,North,Refund Request
+T01890,2025-08-03,South,Out of Stock
+T01891,2025-08-08,South,Delivery Delay
+T01892,2025-11-15,North,Product Issue
+T01893,2025-06-03,East,Out of Stock
+T01894,2025-08-28,South,Product Issue
+T01895,2026-06-06,West,Delivery Delay
+T01896,2025-03-01,North,Delivery Delay
+T01897,2025-08-27,West,Refund Request
+T01898,2025-06-28,East,Delivery Delay
+T01899,2025-03-18,West,Payment Problem
+T01900,2025-03-09,South,Payment Problem
+T01901,2026-06-29,North,Product Issue
+T01902,2025-11-20,East,Delivery Delay
+T01903,2025-05-25,South,Refund Request
+T01904,2025-11-06,West,Refund Request
+T01905,2026-06-01,East,Payment Problem
+T01906,2026-04-20,West,Delivery Delay
+T01907,2025-06-18,North,Delivery Delay
+T01908,2025-04-23,West,Out of Stock
+T01909,2025-06-27,North,Payment Problem
+T01910,2026-03-10,East,Delivery Delay
+T01911,2025-05-18,North,Product Issue
+T01912,2025-06-17,South,Delivery Delay
+T01913,2026-01-12,South,Payment Problem
+T01914,2025-06-21,South,Payment Problem
+T01915,2026-02-26,West,Refund Request
+T01916,2025-04-30,East,Refund Request
+T01917,2025-09-04,North,Out of Stock
+T01918,2025-03-08,South,Delivery Delay
+T01919,2026-01-22,South,Out of Stock
+T01920,2026-02-06,West,Refund Request
+T01921,2025-04-17,East,Delivery Delay
+T01922,2026-04-22,North,Out of Stock
+T01923,2025-11-09,South,Delivery Delay
+T01924,2025-12-15,South,Product Issue
+T01925,2026-06-13,West,Delivery Delay
+T01926,2025-08-24,North,Delivery Delay
+T01927,2025-07-30,South,Product Issue
+T01928,2026-02-23,North,Delivery Delay
+T01929,2026-06-07,East,Payment Problem
+T01930,2026-06-30,North,Out of Stock
+T01931,2025-07-27,South,Delivery Delay
+T01932,2025-01-17,South,Product Issue
+T01933,2025-09-11,East,Payment Problem
+T01934,2026-03-22,South,Out of Stock
+T01935,2026-04-01,East,Out of Stock
+T01936,2025-04-24,North,Product Issue
+T01937,2025-11-18,West,Refund Request
+T01938,2025-06-19,East,Delivery Delay
+T01939,2025-05-04,North,Payment Problem
+T01940,2025-08-23,South,Delivery Delay
+T01941,2025-01-18,East,Payment Problem
+T01942,2026-01-16,South,Delivery Delay
+T01943,2026-04-15,North,Delivery Delay
+T01944,2025-02-15,East,Out of Stock
+T01945,2025-12-03,South,Refund Request
+T01946,2025-05-14,North,Payment Problem
+T01947,2025-09-17,East,Out of Stock
+T01948,2025-09-24,West,Out of Stock
+T01949,2026-02-14,West,Product Issue
+T01950,2025-11-24,South,Product Issue
+T01951,2025-04-07,North,Out of Stock
+T01952,2026-01-13,East,Product Issue
+T01953,2025-05-15,South,Out of Stock
+T01954,2025-03-30,North,Product Issue
+T01955,2026-01-30,West,Delivery Delay
+T01956,2025-08-30,North,Payment Problem
+T01957,2025-01-04,North,Delivery Delay
+T01958,2026-06-17,East,Refund Request
+T01959,2026-04-23,North,Delivery Delay
+T01960,2025-05-22,South,Payment Problem
+T01961,2025-07-27,East,Out of Stock
+T01962,2025-09-27,East,Refund Request
+T01963,2025-07-05,West,Refund Request
+T01964,2025-03-22,South,Delivery Delay
+T01965,2025-03-27,West,Refund Request
+T01966,2025-04-14,West,Out of Stock
+T01967,2026-04-06,North,Refund Request
+T01968,2025-12-18,North,Delivery Delay
+T01969,2025-07-08,North,Delivery Delay
+T01970,2025-08-17,South,Payment Problem
+T01971,2025-06-20,South,Payment Problem
+T01972,2025-07-20,West,Refund Request
+T01973,2026-05-26,South,Refund Request
+T01974,2026-06-21,South,Refund Request
+T01975,2025-05-30,East,Delivery Delay
+T01976,2025-12-22,North,Delivery Delay
+T01977,2026-06-17,North,Out of Stock
+T01978,2025-09-09,East,Out of Stock
+T01979,2026-05-03,South,Out of Stock
+T01980,2025-11-17,East,Out of Stock
+T01981,2025-12-23,South,Out of Stock
+T01982,2025-11-22,East,Payment Problem
+T01983,2026-06-06,North,Payment Problem
+T01984,2025-10-21,East,Product Issue
+T01985,2025-06-07,West,Out of Stock
+T01986,2025-10-09,East,Product Issue
+T01987,2025-03-09,West,Refund Request
+T01988,2026-02-17,West,Refund Request
+T01989,2026-01-31,North,Delivery Delay
+T01990,2025-05-19,West,Out of Stock
+T01991,2026-02-27,West,Product Issue
+T01992,2026-04-18,East,Refund Request
+T01993,2025-12-05,East,Payment Problem
+T01994,2025-06-28,East,Refund Request
+T01995,2026-04-07,North,Out of Stock
+T01996,2025-04-14,South,Out of Stock
+T01997,2025-09-28,East,Product Issue
+T01998,2025-02-24,West,Product Issue
+T01999,2025-07-09,North,Payment Problem
+T02000,2025-12-01,South,Delivery Delay
+T02001,2025-04-14,East,Refund Request
+T02002,2025-08-27,South,Delivery Delay
+T02003,2025-04-08,East,Out of Stock
+T02004,2026-04-06,South,Refund Request
+T02005,2025-09-14,East,Product Issue
+T02006,2026-01-28,South,Refund Request
+T02007,2026-01-24,North,Product Issue
+T02008,2025-05-13,South,Product Issue
+T02009,2025-04-11,West,Out of Stock
+T02010,2025-10-04,East,Refund Request
+T02011,2025-03-10,North,Delivery Delay
+T02012,2026-01-08,North,Delivery Delay
+T02013,2025-10-28,West,Out of Stock
+T02014,2026-02-03,East,Refund Request
+T02015,2025-05-17,North,Refund Request
+T02016,2026-01-17,South,Payment Problem
+T02017,2025-02-04,South,Payment Problem
+T02018,2025-01-21,West,Delivery Delay
+T02019,2026-02-04,North,Refund Request
+T02020,2026-01-18,East,Payment Problem
+T02021,2025-01-22,East,Product Issue
+T02022,2025-02-16,South,Payment Problem
+T02023,2026-01-19,South,Out of Stock
+T02024,2025-03-22,South,Refund Request
+T02025,2025-10-02,North,Delivery Delay
+T02026,2025-11-07,West,Delivery Delay
+T02027,2025-06-26,South,Refund Request
+T02028,2025-03-01,West,Out of Stock
+T02029,2025-04-26,West,Refund Request
+T02030,2025-08-21,South,Out of Stock
+T02031,2025-05-31,West,Out of Stock
+T02032,2026-01-05,North,Out of Stock
+T02033,2025-12-19,East,Product Issue
+T02034,2025-06-02,South,Product Issue
+T02035,2025-05-24,East,Refund Request
+T02036,2025-12-22,East,Payment Problem
+T02037,2026-02-17,South,Out of Stock
+T02038,2026-02-06,East,Refund Request
+T02039,2025-01-18,East,Refund Request
+T02040,2025-05-09,West,Payment Problem
+T02041,2026-01-01,South,Delivery Delay
+T02042,2026-01-11,West,Refund Request
+T02043,2025-01-20,South,Product Issue
+T02044,2026-04-07,South,Out of Stock
+T02045,2025-11-19,North,Payment Problem
+T02046,2025-06-22,West,Payment Problem
+T02047,2025-08-31,South,Refund Request
+T02048,2026-06-16,West,Out of Stock
+T02049,2025-05-31,West,Delivery Delay
+T02050,2026-06-21,North,Delivery Delay
+T02051,2026-02-19,South,Delivery Delay
+T02052,2026-03-14,West,Out of Stock
+T02053,2025-02-28,South,Refund Request
+T02054,2026-06-28,West,Delivery Delay
+T02055,2025-08-07,West,Payment Problem
+T02056,2025-04-13,West,Out of Stock
+T02057,2025-04-29,West,Out of Stock
+T02058,2026-04-23,South,Out of Stock
+T02059,2025-10-08,South,Product Issue
+T02060,2026-06-28,South,Delivery Delay
+T02061,2025-06-02,North,Delivery Delay
+T02062,2025-09-29,North,Refund Request
+T02063,2026-06-03,North,Delivery Delay
+T02064,2025-11-14,South,Out of Stock
+T02065,2025-07-31,West,Refund Request
+T02066,2025-05-28,East,Out of Stock
+T02067,2025-09-15,West,Refund Request
+T02068,2025-09-05,North,Delivery Delay
+T02069,2025-10-15,South,Out of Stock
+T02070,2025-08-02,West,Refund Request
+T02071,2025-08-20,East,Refund Request
+T02072,2026-06-17,North,Delivery Delay
+T02073,2026-02-10,West,Delivery Delay
+T02074,2025-10-15,South,Out of Stock
+T02075,2025-03-22,West,Refund Request
+T02076,2025-06-15,North,Refund Request
+T02077,2026-06-09,West,Out of Stock
+T02078,2025-11-21,East,Out of Stock
+T02079,2025-06-21,South,Out of Stock
+T02080,2025-10-23,North,Payment Problem
+T02081,2026-05-06,South,Payment Problem
+T02082,2025-08-06,East,Refund Request
+T02083,2025-07-12,North,Delivery Delay
+T02084,2025-01-23,South,Payment Problem
+T02085,2025-12-27,North,Product Issue
+T02086,2025-11-12,North,Out of Stock
+T02087,2026-03-06,East,Payment Problem
+T02088,2025-12-15,East,Delivery Delay
+T02089,2025-02-07,South,Out of Stock
+T02090,2026-04-03,South,Product Issue
+T02091,2025-07-25,North,Payment Problem
+T02092,2025-08-31,West,Payment Problem
+T02093,2025-11-19,East,Delivery Delay
+T02094,2025-09-07,West,Delivery Delay
+T02095,2026-03-23,South,Payment Problem
+T02096,2025-10-09,East,Refund Request
+T02097,2026-04-22,North,Product Issue
+T02098,2025-10-30,North,Out of Stock
+T02099,2026-02-19,West,Refund Request
+T02100,2025-03-14,East,Out of Stock
+T02101,2025-01-03,East,Delivery Delay
+T02102,2025-05-19,South,Payment Problem
+T02103,2026-05-28,West,Product Issue
+T02104,2025-03-18,East,Out of Stock
+T02105,2025-06-06,South,Out of Stock
+T02106,2025-07-09,East,Refund Request
+T02107,2025-10-05,South,Refund Request
+T02108,2025-11-03,West,Out of Stock
+T02109,2025-10-27,East,Product Issue
+T02110,2025-02-11,West,Delivery Delay
+T02111,2025-03-18,West,Payment Problem
+T02112,2025-07-24,West,Out of Stock
+T02113,2025-11-11,North,Refund Request
+T02114,2025-09-09,North,Product Issue
+T02115,2025-10-22,East,Product Issue
+T02116,2025-10-12,North,Refund Request
+T02117,2025-10-21,East,Payment Problem
+T02118,2025-08-03,West,Product Issue
+T02119,2025-08-09,West,Out of Stock
+T02120,2025-09-18,South,Payment Problem
+T02121,2026-04-17,East,Delivery Delay
+T02122,2025-09-12,South,Refund Request
+T02123,2026-03-09,West,Out of Stock
+T02124,2026-04-23,South,Payment Problem
+T02125,2026-01-09,North,Product Issue
+T02126,2025-11-19,North,Out of Stock
+T02127,2026-01-12,East,Delivery Delay
+T02128,2025-04-10,South,Payment Problem
+T02129,2025-05-03,West,Out of Stock
+T02130,2025-01-23,West,Out of Stock
+T02131,2026-06-03,North,Product Issue
+T02132,2025-04-05,East,Out of Stock
+T02133,2026-01-12,North,Payment Problem
+T02134,2025-08-15,North,Refund Request
+T02135,2025-10-15,North,Refund Request
+T02136,2025-10-08,East,Out of Stock
+T02137,2025-12-08,South,Refund Request
+T02138,2026-01-21,South,Refund Request
+T02139,2025-11-03,South,Refund Request
+T02140,2026-06-28,West,Out of Stock
+T02141,2025-03-16,West,Refund Request
+T02142,2025-08-05,North,Out of Stock
+T02143,2026-03-25,North,Delivery Delay
+T02144,2026-01-28,South,Product Issue
+T02145,2026-05-16,East,Out of Stock
+T02146,2026-03-30,East,Refund Request
+T02147,2025-11-14,South,Payment Problem
+T02148,2026-04-19,West,Delivery Delay
+T02149,2025-05-29,South,Out of Stock
+T02150,2026-04-07,North,Payment Problem
+T02151,2025-09-23,East,Out of Stock
+T02152,2025-09-01,North,Refund Request
+T02153,2026-04-09,South,Out of Stock
+T02154,2025-11-16,North,Refund Request
+T02155,2025-11-19,West,Out of Stock
+T02156,2026-04-07,South,Delivery Delay
+T02157,2025-08-16,East,Delivery Delay
+T02158,2025-09-01,North,Out of Stock
+T02159,2025-10-02,South,Payment Problem
+T02160,2025-02-08,North,Payment Problem
+T02161,2025-01-25,South,Delivery Delay
+T02162,2025-09-24,South,Product Issue
+T02163,2025-09-04,South,Out of Stock
+T02164,2025-01-09,North,Product Issue
+T02165,2025-11-17,West,Out of Stock
+T02166,2025-05-05,North,Delivery Delay
+T02167,2025-11-22,North,Product Issue
+T02168,2025-08-29,East,Refund Request
+T02169,2026-06-04,North,Delivery Delay
+T02170,2025-07-28,West,Refund Request
+T02171,2025-07-26,East,Delivery Delay
+T02172,2025-06-10,South,Out of Stock
+T02173,2025-12-28,East,Out of Stock
+T02174,2025-11-24,West,Refund Request
+T02175,2026-06-04,East,Payment Problem
+T02176,2026-01-05,West,Payment Problem
+T02177,2025-03-20,South,Refund Request
+T02178,2026-02-16,East,Product Issue
+T02179,2025-04-07,South,Refund Request
+T02180,2026-01-28,West,Payment Problem
+T02181,2026-01-28,South,Payment Problem
+T02182,2025-11-30,South,Payment Problem
+T02183,2025-06-28,East,Out of Stock
+T02184,2025-03-01,West,Product Issue
+T02185,2025-03-25,East,Delivery Delay
+T02186,2025-02-10,South,Delivery Delay
+T02187,2025-04-15,North,Refund Request
+T02188,2025-08-03,North,Delivery Delay
+T02189,2026-05-04,East,Product Issue
+T02190,2026-03-25,South,Out of Stock
+T02191,2025-07-26,East,Product Issue
+T02192,2026-04-22,West,Delivery Delay
+T02193,2026-01-22,South,Out of Stock
+T02194,2026-05-31,East,Out of Stock
+T02195,2025-07-06,East,Out of Stock
+T02196,2025-10-02,West,Payment Problem
+T02197,2026-06-23,East,Product Issue
+T02198,2025-10-12,South,Payment Problem
+T02199,2025-09-14,East,Out of Stock
+T02200,2025-12-23,West,Product Issue
+T02201,2025-11-30,North,Refund Request
+T02202,2025-01-15,East,Refund Request
+T02203,2026-02-07,West,Refund Request
+T02204,2026-01-30,West,Product Issue
+T02205,2025-03-16,South,Delivery Delay
+T02206,2025-08-22,South,Out of Stock
+T02207,2025-08-18,South,Delivery Delay
+T02208,2025-11-28,South,Refund Request
+T02209,2025-04-11,West,Payment Problem
+T02210,2025-08-09,East,Out of Stock
+T02211,2025-10-23,North,Refund Request
+T02212,2026-04-23,West,Out of Stock
+T02213,2025-07-05,South,Payment Problem
+T02214,2026-06-28,South,Delivery Delay
+T02215,2025-10-28,West,Out of Stock
+T02216,2025-06-26,South,Payment Problem
+T02217,2026-04-26,West,Delivery Delay
+T02218,2026-04-30,South,Refund Request
+T02219,2025-07-14,South,Product Issue
+T02220,2025-03-17,South,Product Issue
+T02221,2025-04-10,West,Out of Stock
+T02222,2025-03-04,West,Payment Problem
+T02223,2026-02-15,East,Out of Stock
+T02224,2025-11-22,East,Product Issue
+T02225,2026-01-10,West,Product Issue
+T02226,2025-10-06,West,Payment Problem
+T02227,2026-05-08,North,Out of Stock
+T02228,2026-02-13,South,Product Issue
+T02229,2025-02-04,North,Payment Problem
+T02230,2025-08-06,East,Refund Request
+T02231,2025-08-12,North,Product Issue
+T02232,2025-10-21,South,Payment Problem
+T02233,2025-10-24,West,Product Issue
+T02234,2025-09-18,North,Out of Stock
+T02235,2025-11-21,West,Delivery Delay
+T02236,2026-02-06,East,Payment Problem
+T02237,2025-12-02,South,Refund Request
+T02238,2025-02-14,North,Product Issue
+T02239,2026-02-23,West,Refund Request
+T02240,2025-10-19,West,Out of Stock
+T02241,2026-06-18,North,Refund Request
+T02242,2025-09-03,East,Refund Request
+T02243,2025-11-27,East,Payment Problem
+T02244,2026-04-10,North,Refund Request
+T02245,2026-01-17,East,Product Issue
+T02246,2025-04-24,East,Delivery Delay
+T02247,2026-03-15,South,Refund Request
+T02248,2025-06-17,West,Payment Problem
+T02249,2025-06-16,North,Refund Request
+T02250,2025-09-19,West,Refund Request
+T02251,2025-06-24,East,Refund Request
+T02252,2026-01-05,West,Payment Problem
+T02253,2025-05-22,South,Product Issue
+T02254,2025-12-01,North,Product Issue
+T02255,2025-05-25,South,Product Issue
+T02256,2025-05-04,East,Product Issue
+T02257,2025-01-22,West,Refund Request
+T02258,2026-02-12,South,Payment Problem
+T02259,2025-10-04,West,Product Issue
+T02260,2025-04-25,West,Refund Request
+T02261,2026-03-12,North,Product Issue
+T02262,2026-04-07,South,Product Issue
+T02263,2025-02-27,North,Product Issue
+T02264,2025-09-22,North,Delivery Delay
+T02265,2026-04-02,North,Refund Request
+T02266,2025-04-29,South,Product Issue
+T02267,2025-07-21,South,Refund Request
+T02268,2025-11-13,North,Out of Stock
+T02269,2025-04-04,West,Out of Stock
+T02270,2025-02-07,North,Payment Problem
+T02271,2025-12-30,East,Payment Problem
+T02272,2025-07-20,East,Payment Problem
+T02273,2025-06-24,North,Out of Stock
+T02274,2025-04-09,South,Payment Problem
+T02275,2025-09-30,West,Product Issue
+T02276,2026-03-28,North,Delivery Delay
+T02277,2025-04-04,East,Product Issue
+T02278,2026-06-01,North,Product Issue
+T02279,2025-06-23,East,Delivery Delay
+T02280,2025-05-25,West,Product Issue
+T02281,2025-09-01,South,Out of Stock
+T02282,2025-01-16,South,Product Issue
+T02283,2026-03-04,East,Payment Problem
+T02284,2025-03-20,North,Refund Request
+T02285,2026-01-14,West,Delivery Delay
+T02286,2026-05-03,West,Out of Stock
+T02287,2025-03-22,West,Refund Request
+T02288,2025-06-24,West,Refund Request
+T02289,2025-12-14,North,Payment Problem
+T02290,2025-09-09,West,Delivery Delay
+T02291,2025-08-22,South,Delivery Delay
+T02292,2025-10-20,West,Payment Problem
+T02293,2026-06-13,East,Out of Stock
+T02294,2026-02-23,South,Refund Request
+T02295,2025-12-23,South,Out of Stock
+T02296,2026-05-10,East,Refund Request
+T02297,2025-05-16,East,Delivery Delay
+T02298,2025-08-15,North,Payment Problem
+T02299,2025-08-16,East,Delivery Delay
+T02300,2025-09-15,South,Product Issue
+T02301,2025-08-08,North,Out of Stock
+T02302,2025-01-20,West,Refund Request
+T02303,2026-01-24,North,Product Issue
+T02304,2026-04-12,North,Delivery Delay
+T02305,2026-01-03,North,Product Issue
+T02306,2025-09-27,North,Product Issue
+T02307,2025-01-21,West,Product Issue
+T02308,2025-06-09,West,Refund Request
+T02309,2025-02-16,East,Delivery Delay
+T02310,2026-06-17,East,Product Issue
+T02311,2026-03-21,North,Payment Problem
+T02312,2025-10-26,West,Product Issue
+T02313,2025-02-10,West,Out of Stock
+T02314,2026-01-10,South,Product Issue
+T02315,2026-05-23,South,Payment Problem
+T02316,2025-01-20,East,Payment Problem
+T02317,2025-08-04,West,Delivery Delay
+T02318,2025-01-16,East,Refund Request
+T02319,2025-06-14,North,Payment Problem
+T02320,2025-09-15,West,Delivery Delay
+T02321,2025-12-19,East,Payment Problem
+T02322,2026-06-10,East,Delivery Delay
+T02323,2025-01-09,East,Delivery Delay
+T02324,2025-08-05,West,Refund Request
+T02325,2025-06-19,East,Delivery Delay
+T02326,2025-01-02,East,Product Issue
+T02327,2026-06-28,South,Product Issue
+T02328,2026-04-28,West,Delivery Delay
+T02329,2025-01-14,South,Product Issue
+T02330,2026-04-09,West,Out of Stock
+T02331,2026-03-09,East,Product Issue
+T02332,2025-10-06,West,Product Issue
+T02333,2025-10-05,North,Product Issue
+T02334,2026-04-11,East,Refund Request
+T02335,2025-08-21,North,Delivery Delay
+T02336,2026-05-20,West,Delivery Delay
+T02337,2025-10-10,North,Delivery Delay
+T02338,2025-07-05,South,Delivery Delay
+T02339,2026-04-19,South,Product Issue
+T02340,2025-10-19,South,Out of Stock
+T02341,2026-06-07,West,Out of Stock
+T02342,2025-05-04,South,Delivery Delay
+T02343,2025-06-08,East,Out of Stock
+T02344,2025-05-31,North,Out of Stock
+T02345,2025-05-04,East,Out of Stock
+T02346,2025-09-29,East,Out of Stock
+T02347,2026-03-23,South,Refund Request
+T02348,2026-04-02,East,Payment Problem
+T02349,2025-04-23,North,Refund Request
+T02350,2026-06-14,South,Payment Problem
+T02351,2026-06-10,West,Out of Stock
+T02352,2026-05-14,South,Payment Problem
+T02353,2025-06-02,North,Product Issue
+T02354,2026-04-24,East,Out of Stock
+T02355,2025-09-15,North,Refund Request
+T02356,2026-05-22,East,Payment Problem
+T02357,2025-10-21,East,Refund Request
+T02358,2026-05-23,East,Payment Problem
+T02359,2026-04-23,West,Delivery Delay
+T02360,2025-11-15,East,Delivery Delay
+T02361,2026-03-14,East,Product Issue
+T02362,2025-05-16,South,Out of Stock
+T02363,2025-07-16,South,Payment Problem
+T02364,2026-05-03,North,Out of Stock
+T02365,2025-11-06,North,Product Issue
+T02366,2025-06-24,South,Payment Problem
+T02367,2025-07-22,East,Delivery Delay
+T02368,2025-05-06,East,Payment Problem
+T02369,2025-09-11,West,Delivery Delay
+T02370,2025-10-19,West,Payment Problem
+T02371,2025-07-18,East,Refund Request
+T02372,2025-06-29,South,Product Issue
+T02373,2025-11-16,East,Refund Request
+T02374,2025-03-25,East,Payment Problem
+T02375,2025-11-25,West,Product Issue
+T02376,2026-04-18,South,Payment Problem
+T02377,2025-04-29,West,Out of Stock
+T02378,2025-01-06,East,Product Issue
+T02379,2026-01-09,South,Payment Problem
+T02380,2025-05-26,South,Refund Request
+T02381,2026-04-15,North,Payment Problem
+T02382,2025-12-21,South,Product Issue
+T02383,2025-10-17,East,Delivery Delay
+T02384,2025-03-30,North,Delivery Delay
+T02385,2025-01-27,North,Delivery Delay
+T02386,2026-06-15,West,Delivery Delay
+T02387,2026-05-08,South,Product Issue
+T02388,2025-08-26,North,Payment Problem
+T02389,2025-10-20,West,Delivery Delay
+T02390,2025-09-22,North,Out of Stock
+T02391,2026-04-26,North,Out of Stock
+T02392,2025-05-13,North,Out of Stock
+T02393,2026-03-07,South,Refund Request
+T02394,2026-02-07,East,Product Issue
+T02395,2025-10-28,East,Delivery Delay
+T02396,2025-08-02,South,Delivery Delay
+T02397,2026-01-09,West,Payment Problem
+T02398,2025-12-10,West,Product Issue
+T02399,2025-10-28,West,Payment Problem
+T02400,2026-03-13,South,Product Issue
+T02401,2025-02-10,South,Delivery Delay
+T02402,2026-01-18,East,Product Issue
+T02403,2026-06-07,East,Product Issue
+T02404,2026-06-16,North,Delivery Delay
+T02405,2026-05-17,East,Payment Problem
+T02406,2025-08-15,South,Refund Request
+T02407,2025-09-29,East,Payment Problem
+T02408,2025-05-04,South,Payment Problem
+T02409,2025-06-22,East,Payment Problem
+T02410,2025-02-02,East,Refund Request
+T02411,2025-02-20,East,Out of Stock
+T02412,2026-02-11,North,Refund Request
+T02413,2025-04-06,West,Product Issue
+T02414,2025-03-23,North,Payment Problem
+T02415,2025-10-07,East,Delivery Delay
+T02416,2026-01-01,North,Payment Problem
+T02417,2025-11-22,West,Product Issue
+T02418,2025-03-30,East,Out of Stock
+T02419,2025-08-15,North,Delivery Delay
+T02420,2025-10-28,West,Refund Request
+T02421,2025-06-19,North,Out of Stock
+T02422,2025-11-24,North,Product Issue
+T02423,2025-02-06,East,Product Issue
+T02424,2026-03-02,North,Delivery Delay
+T02425,2026-02-12,East,Delivery Delay
+T02426,2025-08-05,South,Product Issue
+T02427,2025-12-24,South,Refund Request
+T02428,2025-06-10,West,Delivery Delay
+T02429,2025-05-22,East,Out of Stock
+T02430,2025-08-19,West,Out of Stock
+T02431,2025-06-07,South,Delivery Delay
+T02432,2026-02-25,East,Payment Problem
+T02433,2025-02-21,East,Refund Request
+T02434,2025-01-16,South,Refund Request
+T02435,2025-09-24,South,Payment Problem
+T02436,2025-07-26,North,Out of Stock
+T02437,2026-01-29,North,Refund Request
+T02438,2025-05-20,West,Out of Stock
+T02439,2026-02-25,South,Out of Stock
+T02440,2025-09-25,South,Product Issue
+T02441,2025-11-26,East,Product Issue
+T02442,2025-01-05,West,Refund Request
+T02443,2026-01-06,East,Payment Problem
+T02444,2025-04-13,East,Out of Stock
+T02445,2026-01-16,South,Payment Problem
+T02446,2025-09-27,East,Out of Stock
+T02447,2025-12-31,North,Out of Stock
+T02448,2025-03-09,East,Product Issue
+T02449,2025-07-26,North,Payment Problem
+T02450,2026-01-21,East,Delivery Delay
+T02451,2025-01-30,North,Delivery Delay
+T02452,2025-01-03,North,Delivery Delay
+T02453,2026-02-05,West,Refund Request
+T02454,2025-10-01,North,Out of Stock
+T02455,2026-03-07,East,Out of Stock
+T02456,2025-03-12,South,Payment Problem
+T02457,2025-09-13,East,Payment Problem
+T02458,2025-05-20,East,Refund Request
+T02459,2026-02-27,East,Product Issue
+T02460,2026-05-28,East,Delivery Delay
+T02461,2025-01-01,North,Out of Stock
+T02462,2025-01-02,East,Refund Request
+T02463,2026-02-26,East,Out of Stock
+T02464,2025-07-23,East,Payment Problem
+T02465,2025-05-31,East,Product Issue
+T02466,2025-01-17,West,Delivery Delay
+T02467,2026-05-29,North,Refund Request
+T02468,2025-03-02,East,Delivery Delay
+T02469,2025-10-10,East,Payment Problem
+T02470,2026-04-14,West,Out of Stock
+T02471,2025-02-10,West,Payment Problem
+T02472,2025-03-08,East,Out of Stock
+T02473,2025-04-29,North,Payment Problem
+T02474,2025-07-05,South,Payment Problem
+T02475,2025-10-11,East,Product Issue
+T02476,2025-12-14,East,Payment Problem
+T02477,2026-04-29,West,Out of Stock
+T02478,2025-12-14,West,Refund Request
+T02479,2026-04-23,South,Product Issue
+T02480,2026-02-23,East,Out of Stock
+T02481,2025-03-21,South,Product Issue
+T02482,2026-02-17,North,Delivery Delay
+T02483,2025-11-30,North,Product Issue
+T02484,2025-07-22,South,Payment Problem
+T02485,2026-01-02,South,Refund Request
+T02486,2026-01-13,North,Payment Problem
+T02487,2025-01-19,South,Payment Problem
+T02488,2026-03-09,North,Out of Stock
+T02489,2025-08-09,North,Refund Request
+T02490,2025-02-27,North,Delivery Delay
+T02491,2025-01-18,West,Out of Stock
+T02492,2025-01-16,North,Out of Stock
+T02493,2026-02-03,North,Delivery Delay
+T02494,2026-02-05,West,Refund Request
+T02495,2025-10-22,East,Refund Request
+T02496,2025-03-12,West,Delivery Delay
+T02497,2026-01-09,North,Product Issue
+T02498,2025-08-02,East,Refund Request
+T02499,2025-02-08,West,Refund Request
+T02500,2025-04-05,South,Out of Stock
+T02501,2025-09-25,South,Product Issue
+T02502,2026-01-22,North,Payment Problem
+T02503,2025-06-24,West,Out of Stock
+T02504,2025-12-06,West,Delivery Delay
+T02505,2026-03-29,North,Refund Request
+T02506,2025-07-05,North,Payment Problem
+T02507,2025-05-06,South,Delivery Delay
+T02508,2025-12-21,North,Payment Problem
+T02509,2026-06-20,East,Out of Stock
+T02510,2025-02-05,North,Refund Request
+T02511,2025-07-01,East,Out of Stock
+T02512,2026-02-21,South,Delivery Delay
+T02513,2025-05-30,West,Product Issue
+T02514,2026-03-17,South,Refund Request
+T02515,2025-09-03,West,Payment Problem
+T02516,2025-05-29,South,Payment Problem
+T02517,2025-01-09,South,Out of Stock
+T02518,2025-10-17,North,Payment Problem
+T02519,2025-09-23,East,Refund Request
+T02520,2025-09-15,West,Out of Stock
+T02521,2025-07-18,West,Payment Problem
+T02522,2025-09-23,North,Refund Request
+T02523,2025-01-19,South,Payment Problem
+T02524,2025-01-23,North,Payment Problem
+T02525,2026-06-06,East,Delivery Delay
+T02526,2025-03-31,West,Refund Request
+T02527,2025-07-23,West,Refund Request
+T02528,2026-05-20,North,Delivery Delay
+T02529,2026-06-13,East,Payment Problem
+T02530,2026-05-27,East,Refund Request
+T02531,2025-02-25,West,Refund Request
+T02532,2025-05-10,South,Delivery Delay
+T02533,2026-02-26,West,Product Issue
+T02534,2025-06-18,East,Payment Problem
+T02535,2026-06-14,North,Product Issue
+T02536,2025-04-27,West,Refund Request
+T02537,2025-11-11,East,Refund Request
+T02538,2025-02-20,East,Payment Problem
+T02539,2025-09-18,South,Product Issue
+T02540,2025-03-31,East,Refund Request
+T02541,2025-04-02,South,Payment Problem
+T02542,2025-03-02,West,Refund Request
+T02543,2025-08-24,North,Payment Problem
+T02544,2025-03-15,North,Delivery Delay
+T02545,2025-06-03,South,Refund Request
+T02546,2025-10-29,North,Payment Problem
+T02547,2025-02-13,West,Out of Stock
+T02548,2026-02-23,North,Product Issue
+T02549,2026-06-22,North,Payment Problem
+T02550,2026-01-16,West,Refund Request
+T02551,2025-08-20,West,Delivery Delay
+T02552,2025-12-18,East,Product Issue
+T02553,2025-01-23,South,Product Issue
+T02554,2025-09-30,North,Payment Problem
+T02555,2025-09-07,North,Out of Stock
+T02556,2025-08-30,South,Product Issue
+T02557,2026-04-10,North,Payment Problem
+T02558,2025-11-03,West,Product Issue
+T02559,2026-02-07,East,Delivery Delay
+T02560,2026-05-03,North,Refund Request
+T02561,2026-01-14,North,Refund Request
+T02562,2025-11-23,East,Product Issue
+T02563,2026-02-12,North,Out of Stock
+T02564,2026-06-03,South,Delivery Delay
+T02565,2026-03-14,South,Refund Request
+T02566,2025-12-25,North,Payment Problem
+T02567,2026-04-06,East,Delivery Delay
+T02568,2025-08-17,East,Payment Problem
+T02569,2025-07-23,East,Payment Problem
+T02570,2025-03-09,North,Delivery Delay
+T02571,2025-04-05,North,Refund Request
+T02572,2025-03-20,North,Refund Request
+T02573,2026-01-04,East,Product Issue
+T02574,2026-02-10,South,Payment Problem
+T02575,2025-03-14,South,Delivery Delay
+T02576,2025-01-22,East,Out of Stock
+T02577,2025-04-19,West,Delivery Delay
+T02578,2026-04-01,East,Refund Request
+T02579,2026-06-15,West,Out of Stock
+T02580,2026-03-01,East,Delivery Delay
+T02581,2025-09-30,West,Delivery Delay
+T02582,2025-01-30,North,Refund Request
+T02583,2025-07-09,West,Product Issue
+T02584,2025-07-06,East,Delivery Delay
+T02585,2025-03-27,North,Out of Stock
+T02586,2025-04-28,East,Product Issue
+T02587,2025-01-18,East,Out of Stock
+T02588,2026-04-03,South,Product Issue
+T02589,2025-07-31,South,Out of Stock
+T02590,2025-04-30,East,Product Issue
+T02591,2025-01-03,West,Refund Request
+T02592,2025-08-17,South,Delivery Delay
+T02593,2025-12-09,North,Delivery Delay
+T02594,2025-08-04,East,Product Issue
+T02595,2025-10-21,East,Out of Stock
+T02596,2026-06-22,West,Product Issue
+T02597,2025-11-17,South,Product Issue
+T02598,2026-05-28,West,Product Issue
+T02599,2025-02-01,East,Payment Problem
+T02600,2026-02-01,North,Out of Stock
+T02601,2025-02-21,South,Out of Stock
+T02602,2025-10-30,South,Payment Problem
+T02603,2026-03-15,North,Payment Problem
+T02604,2026-05-20,West,Out of Stock
+T02605,2025-10-23,West,Delivery Delay
+T02606,2025-10-14,East,Product Issue
+T02607,2026-05-02,East,Payment Problem
+T02608,2025-12-29,East,Product Issue
+T02609,2026-03-18,North,Refund Request
+T02610,2025-03-20,North,Refund Request
+T02611,2025-12-27,South,Out of Stock
+T02612,2026-03-03,North,Product Issue
+T02613,2025-07-15,East,Product Issue
+T02614,2026-03-19,North,Payment Problem
+T02615,2026-04-04,West,Delivery Delay
+T02616,2025-09-14,East,Product Issue
+T02617,2026-05-14,South,Payment Problem
+T02618,2026-06-15,South,Refund Request
+T02619,2025-10-02,East,Out of Stock
+T02620,2025-08-05,East,Refund Request
+T02621,2025-03-15,South,Out of Stock
+T02622,2025-11-24,West,Out of Stock
+T02623,2025-03-27,North,Refund Request
+T02624,2025-08-20,West,Product Issue
+T02625,2026-02-27,East,Product Issue
+T02626,2026-05-28,East,Delivery Delay
+T02627,2025-08-22,South,Delivery Delay
+T02628,2026-04-20,North,Payment Problem
+T02629,2025-06-21,East,Delivery Delay
+T02630,2025-07-13,West,Delivery Delay
+T02631,2025-11-11,South,Refund Request
+T02632,2025-01-25,North,Out of Stock
+T02633,2026-01-01,East,Product Issue
+T02634,2025-02-15,East,Product Issue
+T02635,2026-06-19,North,Out of Stock
+T02636,2026-02-20,South,Refund Request
+T02637,2025-07-09,East,Refund Request
+T02638,2026-01-08,East,Delivery Delay
+T02639,2025-10-18,West,Delivery Delay
+T02640,2025-04-21,East,Refund Request
+T02641,2025-01-13,East,Refund Request
+T02642,2026-01-26,East,Payment Problem
+T02643,2025-12-29,South,Delivery Delay
+T02644,2025-01-09,West,Delivery Delay
+T02645,2025-11-02,West,Product Issue
+T02646,2026-02-26,South,Delivery Delay
+T02647,2026-06-18,West,Product Issue
+T02648,2025-03-09,West,Delivery Delay
+T02649,2025-02-17,North,Delivery Delay
+T02650,2025-07-16,South,Delivery Delay
+T02651,2025-12-21,South,Product Issue
+T02652,2026-03-13,West,Delivery Delay
+T02653,2025-03-31,North,Payment Problem
+T02654,2025-06-18,East,Product Issue
+T02655,2025-06-26,West,Refund Request
+T02656,2025-06-21,South,Payment Problem
+T02657,2026-03-17,North,Delivery Delay
+T02658,2025-02-09,South,Delivery Delay
+T02659,2025-06-23,South,Refund Request
+T02660,2025-07-15,West,Delivery Delay
+T02661,2025-11-19,North,Out of Stock
+T02662,2025-08-23,North,Payment Problem
+T02663,2026-06-01,North,Refund Request
+T02664,2026-05-28,South,Refund Request
+T02665,2025-07-03,East,Delivery Delay
+T02666,2026-03-24,West,Delivery Delay
+T02667,2026-01-17,South,Delivery Delay
+T02668,2025-06-03,South,Product Issue
+T02669,2026-05-12,West,Delivery Delay
+T02670,2026-01-15,West,Payment Problem
+T02671,2025-04-09,North,Payment Problem
+T02672,2026-06-15,East,Delivery Delay
+T02673,2025-01-01,East,Refund Request
+T02674,2025-06-29,East,Product Issue
+T02675,2026-06-16,North,Payment Problem
+T02676,2026-06-01,East,Product Issue
+T02677,2026-01-31,East,Delivery Delay
+T02678,2025-07-07,East,Product Issue
+T02679,2026-02-16,North,Payment Problem
+T02680,2026-04-23,East,Refund Request
+T02681,2025-02-14,South,Delivery Delay
+T02682,2025-08-18,North,Payment Problem
+T02683,2026-02-01,East,Product Issue
+T02684,2025-06-22,East,Out of Stock
+T02685,2025-04-17,East,Payment Problem
+T02686,2025-01-30,South,Delivery Delay
+T02687,2026-06-07,East,Payment Problem
+T02688,2025-07-04,West,Out of Stock
+T02689,2026-01-22,East,Delivery Delay
+T02690,2026-03-27,South,Payment Problem
+T02691,2026-02-05,West,Payment Problem
+T02692,2025-11-05,North,Payment Problem
+T02693,2025-03-31,South,Payment Problem
+T02694,2025-10-30,West,Refund Request
+T02695,2025-07-28,East,Product Issue
+T02696,2025-11-15,North,Delivery Delay
+T02697,2025-09-02,South,Product Issue
+T02698,2026-04-23,West,Product Issue
+T02699,2026-01-29,East,Product Issue
+T02700,2025-04-29,West,Out of Stock
+T02701,2025-09-08,South,Payment Problem
+T02702,2025-12-16,East,Product Issue
+T02703,2025-04-01,West,Payment Problem
+T02704,2026-05-24,West,Out of Stock
+T02705,2025-08-25,East,Refund Request
+T02706,2025-02-20,North,Refund Request
+T02707,2026-01-23,South,Delivery Delay
+T02708,2025-02-10,South,Product Issue
+T02709,2026-01-17,West,Payment Problem
+T02710,2025-10-20,East,Refund Request
+T02711,2026-06-22,South,Payment Problem
+T02712,2026-01-16,North,Payment Problem
+T02713,2025-01-23,South,Out of Stock
+T02714,2025-05-28,South,Delivery Delay
+T02715,2026-05-20,South,Delivery Delay
+T02716,2025-08-06,East,Product Issue
+T02717,2026-02-20,North,Refund Request
+T02718,2025-11-21,West,Refund Request
+T02719,2026-05-04,West,Product Issue
+T02720,2025-09-16,East,Product Issue
+T02721,2026-01-07,East,Refund Request
+T02722,2025-01-04,North,Product Issue
+T02723,2025-08-14,East,Product Issue
+T02724,2025-05-30,West,Out of Stock
+T02725,2026-03-04,South,Out of Stock
+T02726,2026-05-06,South,Out of Stock
+T02727,2025-02-14,West,Payment Problem
+T02728,2026-01-22,South,Payment Problem
+T02729,2025-08-30,East,Refund Request
+T02730,2025-10-21,West,Product Issue
+T02731,2025-01-02,East,Refund Request
+T02732,2026-02-14,East,Product Issue
+T02733,2026-04-13,South,Product Issue
+T02734,2025-08-01,West,Delivery Delay
+T02735,2026-01-21,West,Payment Problem
+T02736,2026-06-12,West,Product Issue
+T02737,2025-04-12,North,Product Issue
+T02738,2026-01-27,North,Product Issue
+T02739,2025-08-23,South,Payment Problem
+T02740,2025-02-09,North,Payment Problem
+T02741,2025-10-22,East,Refund Request
+T02742,2025-02-06,East,Payment Problem
+T02743,2025-07-25,North,Out of Stock
+T02744,2025-02-21,South,Out of Stock
+T02745,2025-07-28,South,Payment Problem
+T02746,2025-06-27,West,Delivery Delay
+T02747,2025-01-22,North,Payment Problem
+T02748,2025-03-23,West,Delivery Delay
+T02749,2025-01-03,West,Out of Stock
+T02750,2026-01-30,South,Payment Problem
+T02751,2025-08-15,West,Out of Stock
+T02752,2025-01-08,South,Delivery Delay
+T02753,2025-09-14,East,Out of Stock
+T02754,2025-04-12,East,Out of Stock
+T02755,2025-10-30,South,Payment Problem
+T02756,2025-10-02,South,Refund Request
+T02757,2026-06-01,South,Payment Problem
+T02758,2025-06-22,West,Refund Request
+T02759,2025-02-05,North,Refund Request
+T02760,2026-02-16,West,Out of Stock
+T02761,2025-11-17,North,Delivery Delay
+T02762,2026-02-17,West,Out of Stock
+T02763,2026-01-20,West,Product Issue
+T02764,2025-08-20,South,Delivery Delay
+T02765,2026-05-06,East,Refund Request
+T02766,2025-01-30,East,Payment Problem
+T02767,2025-06-05,North,Product Issue
+T02768,2026-06-16,East,Refund Request
+T02769,2025-11-24,West,Refund Request
+T02770,2026-02-10,North,Product Issue
+T02771,2025-12-28,West,Payment Problem
+T02772,2026-06-07,West,Delivery Delay
+T02773,2025-09-22,East,Out of Stock
+T02774,2026-01-06,South,Refund Request
+T02775,2026-03-04,East,Refund Request
+T02776,2025-09-13,South,Delivery Delay
+T02777,2026-02-08,West,Out of Stock
+T02778,2025-02-23,East,Delivery Delay
+T02779,2025-08-30,East,Payment Problem
+T02780,2025-05-10,North,Payment Problem
+T02781,2026-05-10,North,Product Issue
+T02782,2025-01-25,South,Delivery Delay
+T02783,2025-02-10,North,Refund Request
+T02784,2026-01-30,West,Delivery Delay
+T02785,2025-09-19,West,Delivery Delay
+T02786,2025-01-06,East,Delivery Delay
+T02787,2025-06-11,North,Delivery Delay
+T02788,2025-02-26,West,Payment Problem
+T02789,2025-06-15,North,Product Issue
+T02790,2026-06-30,South,Refund Request
+T02791,2025-02-16,South,Out of Stock
+T02792,2025-06-15,West,Payment Problem
+T02793,2025-11-13,West,Refund Request
+T02794,2025-12-14,North,Product Issue
+T02795,2026-05-12,West,Delivery Delay
+T02796,2026-05-26,East,Out of Stock
+T02797,2026-06-27,West,Delivery Delay
+T02798,2025-10-31,South,Product Issue
+T02799,2025-10-13,North,Out of Stock
+T02800,2025-05-06,East,Payment Problem
+T02801,2025-02-20,East,Refund Request
+T02802,2025-08-20,South,Payment Problem
+T02803,2026-04-25,South,Payment Problem
+T02804,2025-12-08,West,Refund Request
+T02805,2026-06-08,East,Product Issue
+T02806,2026-02-03,South,Refund Request
+T02807,2025-06-30,West,Payment Problem
+T02808,2025-11-09,East,Delivery Delay
+T02809,2025-01-29,East,Delivery Delay
+T02810,2025-12-05,South,Delivery Delay
+T02811,2025-11-28,West,Product Issue
+T02812,2025-06-01,South,Out of Stock
+T02813,2025-05-06,East,Refund Request
+T02814,2026-05-05,South,Refund Request
+T02815,2026-04-29,North,Delivery Delay
+T02816,2025-06-18,South,Delivery Delay
+T02817,2025-01-16,North,Refund Request
+T02818,2025-10-23,East,Delivery Delay
+T02819,2026-06-18,East,Payment Problem
+T02820,2025-01-16,North,Payment Problem
+T02821,2025-10-04,North,Payment Problem
+T02822,2025-03-27,East,Payment Problem
+T02823,2026-04-22,East,Payment Problem
+T02824,2026-02-04,West,Product Issue
+T02825,2025-06-19,North,Payment Problem
+T02826,2025-07-18,West,Payment Problem
+T02827,2025-02-17,South,Refund Request
+T02828,2026-05-09,East,Out of Stock
+T02829,2025-01-06,East,Out of Stock
+T02830,2025-04-13,East,Delivery Delay
+T02831,2026-03-03,East,Delivery Delay
+T02832,2025-03-30,West,Payment Problem
+T02833,2025-07-30,North,Product Issue
+T02834,2026-06-17,West,Out of Stock
+T02835,2026-03-02,East,Out of Stock
+T02836,2025-04-30,East,Product Issue
+T02837,2025-05-09,East,Product Issue
+T02838,2025-11-14,East,Product Issue
+T02839,2025-12-22,North,Refund Request
+T02840,2026-03-14,South,Product Issue
+T02841,2025-08-16,West,Payment Problem
+T02842,2025-10-04,South,Out of Stock
+T02843,2025-11-07,West,Product Issue
+T02844,2026-05-15,North,Delivery Delay
+T02845,2025-04-04,East,Refund Request
+T02846,2025-06-16,South,Product Issue
+T02847,2025-02-26,South,Refund Request
+T02848,2025-08-12,South,Out of Stock
+T02849,2025-07-23,South,Product Issue
+T02850,2025-03-21,South,Delivery Delay
+T02851,2026-01-12,West,Delivery Delay
+T02852,2026-03-29,East,Product Issue
+T02853,2025-03-27,East,Out of Stock
+T02854,2026-02-19,South,Out of Stock
+T02855,2025-09-05,East,Delivery Delay
+T02856,2025-08-17,East,Delivery Delay
+T02857,2025-06-24,West,Out of Stock
+T02858,2026-01-09,South,Refund Request
+T02859,2025-06-19,East,Product Issue
+T02860,2025-04-26,East,Refund Request
+T02861,2026-02-28,West,Delivery Delay
+T02862,2025-01-05,South,Product Issue
+T02863,2025-06-21,East,Payment Problem
+T02864,2025-11-29,South,Product Issue
+T02865,2026-02-28,North,Payment Problem
+T02866,2026-02-28,West,Product Issue
+T02867,2026-01-09,West,Refund Request
+T02868,2026-03-19,South,Out of Stock
+T02869,2026-06-23,South,Payment Problem
+T02870,2025-06-05,North,Product Issue
+T02871,2025-06-10,West,Out of Stock
+T02872,2025-05-06,South,Payment Problem
+T02873,2025-08-27,North,Product Issue
+T02874,2026-04-06,East,Refund Request
+T02875,2025-09-18,South,Product Issue
+T02876,2026-03-25,East,Delivery Delay
+T02877,2025-11-03,North,Delivery Delay
+T02878,2025-07-21,North,Refund Request
+T02879,2025-06-06,East,Refund Request
+T02880,2026-02-13,North,Delivery Delay
+T02881,2025-01-28,East,Out of Stock
+T02882,2026-05-30,North,Refund Request
+T02883,2025-01-17,North,Payment Problem
+T02884,2026-06-30,West,Out of Stock
+T02885,2025-03-01,West,Refund Request
+T02886,2025-12-31,South,Delivery Delay
+T02887,2026-03-10,East,Delivery Delay
+T02888,2025-08-20,East,Out of Stock
+T02889,2025-04-29,South,Product Issue
+T02890,2025-05-29,West,Delivery Delay
+T02891,2025-11-16,North,Product Issue
+T02892,2025-07-22,North,Out of Stock
+T02893,2025-02-14,West,Delivery Delay
+T02894,2025-02-11,North,Refund Request
+T02895,2025-02-16,East,Payment Problem
+T02896,2026-01-05,East,Out of Stock
+T02897,2025-01-07,South,Out of Stock
+T02898,2025-03-06,East,Product Issue
+T02899,2025-05-22,East,Product Issue
+T02900,2025-08-05,East,Product Issue
+T02901,2025-10-20,West,Out of Stock
+T02902,2025-04-12,North,Refund Request
+T02903,2025-01-13,North,Payment Problem
+T02904,2025-01-10,West,Payment Problem
+T02905,2025-05-31,North,Delivery Delay
+T02906,2026-04-19,West,Delivery Delay
+T02907,2025-01-05,South,Product Issue
+T02908,2026-06-23,West,Product Issue
+T02909,2025-02-04,North,Out of Stock
+T02910,2026-05-14,West,Product Issue
+T02911,2025-11-13,East,Refund Request
+T02912,2025-11-08,South,Product Issue
+T02913,2025-07-12,West,Refund Request
+T02914,2025-12-11,North,Payment Problem
+T02915,2025-07-30,West,Payment Problem
+T02916,2025-07-02,West,Product Issue
+T02917,2025-08-15,South,Out of Stock
+T02918,2025-04-03,South,Product Issue
+T02919,2025-10-20,North,Payment Problem
+T02920,2025-01-10,North,Out of Stock
+T02921,2025-11-14,North,Delivery Delay
+T02922,2025-02-18,West,Product Issue
+T02923,2025-09-20,East,Delivery Delay
+T02924,2026-05-12,South,Delivery Delay
+T02925,2026-04-10,East,Out of Stock
+T02926,2025-04-18,West,Payment Problem
+T02927,2025-09-28,North,Product Issue
+T02928,2026-03-31,West,Delivery Delay
+T02929,2026-04-29,East,Out of Stock
+T02930,2025-06-13,West,Payment Problem
+T02931,2025-01-09,West,Out of Stock
+T02932,2025-03-15,South,Out of Stock
+T02933,2025-04-18,South,Payment Problem
+T02934,2026-06-09,South,Refund Request
+T02935,2026-04-26,North,Out of Stock
+T02936,2025-07-17,West,Payment Problem
+T02937,2025-12-31,North,Delivery Delay
+T02938,2025-04-18,West,Payment Problem
+T02939,2025-02-25,West,Out of Stock
+T02940,2025-10-27,West,Out of Stock
+T02941,2025-07-23,North,Delivery Delay
+T02942,2026-04-11,North,Refund Request
+T02943,2026-03-25,East,Refund Request
+T02944,2026-02-07,East,Delivery Delay
+T02945,2025-04-20,South,Out of Stock
+T02946,2026-01-07,North,Payment Problem
+T02947,2025-02-22,West,Delivery Delay
+T02948,2025-12-17,East,Payment Problem
+T02949,2025-12-06,North,Delivery Delay
+T02950,2026-03-16,West,Delivery Delay
+T02951,2025-07-24,East,Refund Request
+T02952,2025-10-05,East,Product Issue
+T02953,2025-02-21,North,Out of Stock
+T02954,2025-03-08,East,Product Issue
+T02955,2026-03-27,South,Out of Stock
+T02956,2026-03-14,North,Payment Problem
+T02957,2026-06-12,West,Delivery Delay
+T02958,2026-03-13,East,Refund Request
+T02959,2026-01-22,North,Out of Stock
+T02960,2025-05-13,East,Delivery Delay
+T02961,2026-03-29,North,Refund Request
+T02962,2025-05-28,South,Out of Stock
+T02963,2025-06-14,South,Delivery Delay
+T02964,2025-10-25,West,Delivery Delay
+T02965,2026-02-20,South,Refund Request
+T02966,2025-09-12,East,Delivery Delay
+T02967,2025-12-14,South,Product Issue
+T02968,2026-06-28,West,Delivery Delay
+T02969,2026-06-01,East,Product Issue
+T02970,2026-04-08,South,Delivery Delay
+T02971,2025-04-02,South,Out of Stock
+T02972,2025-07-24,West,Product Issue
+T02973,2025-03-30,West,Payment Problem
+T02974,2025-12-29,East,Out of Stock
+T02975,2026-03-02,West,Product Issue
+T02976,2026-02-26,West,Payment Problem
+T02977,2025-06-20,South,Delivery Delay
+T02978,2025-06-30,East,Payment Problem
+T02979,2026-01-19,North,Out of Stock
+T02980,2025-06-10,West,Out of Stock
+T02981,2026-06-15,West,Out of Stock
+T02982,2025-12-10,East,Refund Request
+T02983,2025-09-02,West,Delivery Delay
+T02984,2025-06-02,West,Payment Problem
+T02985,2025-10-31,South,Refund Request
+T02986,2026-03-31,East,Out of Stock
+T02987,2025-01-11,East,Payment Problem
+T02988,2025-04-24,North,Out of Stock
+T02989,2025-03-28,North,Product Issue
+T02990,2025-09-07,North,Refund Request
+T02991,2025-07-29,East,Delivery Delay
+T02992,2025-02-26,East,Product Issue
+T02993,2026-06-16,East,Delivery Delay
+T02994,2026-05-26,North,Refund Request
+T02995,2025-12-22,East,Delivery Delay
+T02996,2025-12-30,South,Delivery Delay
+T02997,2025-10-15,North,Payment Problem
+T02998,2025-10-11,North,Delivery Delay
+T02999,2025-02-23,East,Payment Problem

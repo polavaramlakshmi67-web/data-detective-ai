@@ -1,0 +1,21 @@
+product_id,product_name,category,price
+P001,Laptop,Electronics,31.0
+P002,Monitor,Electronics,235.0
+P003,Keyboard,Accessories,358.0
+P004,Mouse,Accessories,680.0
+P005,Headphones,Accessories,1124.0
+P006,Webcam,Electronics,393.0
+P007,Printer,Office,995.0
+P008,Tablet,Electronics,729.0
+P009,Smartphone,Electronics,485.0
+P010,Desk,Furniture,1132.0
+P011,Chair,Furniture,508.0
+P012,USB Hub,Accessories,66.0
+P013,SSD,Electronics,797.0
+P014,Router,Electronics,1059.0
+P015,Speaker,Electronics,730.0
+P016,Power Bank,Accessories,420.0
+P017,Smartwatch,Electronics,1000.0
+P018,Camera,Electronics,1129.0
+P019,Microphone,Accessories,269.0
+P020,Backpack,Accessories,410.0
