@@ -1,354 +1,945 @@
+import sys
 from pathlib import Path
 
+import pandas as pd
+import streamlit as st
+
+# ------------------------------------------------------------
+# PROJECT ROOT
+# ------------------------------------------------------------
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+# ------------------------------------------------------------
+# IMPORT EXISTING PROJECT FUNCTIONS
+# ------------------------------------------------------------
+
 from src.analyzer import (
-    load_csv,
     get_data_quality,
     get_numeric_summary,
+    get_categorical_summary,
     calculate_business_metrics,
 )
 
 from src.anomaly_detector import (
     detect_anomalies,
     get_anomaly_summary,
+    get_top_anomalies,
 )
 
-from src.ai_insights import (
-    generate_insights,
-    insights_to_dataframe,
+from src.data_cleaner import (
+    clean_dataset,
+    generate_quality_report,
+)
+
+from src.data_loader import (
+    load_file,
+    get_dataset_info,
+)
+
+from src.profiler import profile_dataframe
+
+from src.visualizer import (
+    plot_missing_values,
+    plot_numeric_distribution,
+    plot_time_series,
+    plot_category_performance,
+    plot_anomalies,
 )
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# ============================================================
+# PAGE CONFIG
+# ============================================================
 
-DATA_DIR = BASE_DIR / "data"
-OUTPUT_DIR = BASE_DIR / "outputs"
-REPORT_DIR = BASE_DIR / "reports"
+st.set_page_config(
+    page_title="Data Detective AI",
+    page_icon="🔎",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 
-def ensure_directories():
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    REPORT_DIR.mkdir(exist_ok=True)
+# ============================================================
+# CUSTOM CSS
+# ============================================================
 
+st.markdown(
+    """
+    <style>
 
-def analyze_dataset(file_path, dataset_name):
-
-    print("\n" + "=" * 60)
-    print(f"ANALYZING: {dataset_name}")
-    print("=" * 60)
-
-    df = load_csv(file_path)
-
-    print(f"Rows: {len(df):,}")
-    print(f"Columns: {len(df.columns):,}")
-
-    # Data quality
-    quality = get_data_quality(df)
-
-    print("\nDATA QUALITY")
-    print("-" * 40)
-
-    for key, value in quality.items():
-        print(f"{key}: {value}")
-
-    # Business metrics
-    metrics = calculate_business_metrics(df)
-
-    print("\nBUSINESS METRICS")
-    print("-" * 40)
-
-    for key, value in metrics.items():
-        print(f"{key}: {value}")
-
-    # Numeric summary
-    numeric_summary = get_numeric_summary(df)
-
-    if not numeric_summary.empty:
-        numeric_summary.to_csv(
-            OUTPUT_DIR / f"{dataset_name}_numeric_summary.csv"
-        )
-
-    # Anomaly detection
-    anomaly_df = detect_anomalies(df)
-
-    anomaly_summary = get_anomaly_summary(
-        anomaly_df
-    )
-
-    print("\nANOMALY DETECTION")
-    print("-" * 40)
-
-    for key, value in anomaly_summary.items():
-        print(f"{key}: {value}")
-
-    # Save anomalies
-    anomaly_output = anomaly_df[
-        anomaly_df["is_anomaly"] == True
-    ].copy()
-
-    anomaly_output.to_csv(
-        OUTPUT_DIR / f"{dataset_name}_anomalies.csv",
-        index=False,
-    )
-
-    # Generate insights
-    insights = generate_insights(
-        df,
-        anomaly_df
-    )
-
-    insights_df = insights_to_dataframe(
-        insights
-    )
-
-    insights_df.to_csv(
-        OUTPUT_DIR / f"{dataset_name}_insights.csv",
-        index=False,
-    )
-
-    return {
-        "df": df,
-        "quality": quality,
-        "metrics": metrics,
-        "anomaly_df": anomaly_df,
-        "anomaly_summary": anomaly_summary,
-        "insights": insights,
+    .main {
+        background-color: #ffffff;
     }
 
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
 
-def build_summary(results):
+    .hero {
+        padding: 25px;
+        border-radius: 15px;
+        background: linear-gradient(
+            135deg,
+            #f8fafc,
+            #eef2ff
+        );
+        border: 1px solid #e5e7eb;
+        margin-bottom: 25px;
+    }
 
-    rows = []
+    .hero h1 {
+        margin-bottom: 5px;
+    }
 
-    for dataset_name, result in results.items():
+    .hero p {
+        color: #4b5563;
+        font-size: 16px;
+    }
 
-        metrics = result["metrics"]
-        quality = result["quality"]
-        anomalies = result["anomaly_summary"]
+    .metric-card {
+        padding: 15px;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        background: #ffffff;
+    }
 
-        rows.append(
-            {
-                "dataset": dataset_name,
-                "rows": quality["rows"],
-                "columns": quality["columns"],
-                "missing_values": quality[
-                    "missing_values"
-                ],
-                "duplicate_rows": quality[
-                    "duplicate_rows"
-                ],
-                "total_sales": metrics.get(
-                    "total_sales"
-                ),
-                "average_sales": metrics.get(
-                    "average_sales"
-                ),
-                "anomalies": anomalies[
-                    "anomalies"
-                ],
-                "anomaly_percentage": anomalies[
-                    "anomaly_percentage"
-                ],
-            }
+    .footer {
+        text-align: center;
+        color: #6b7280;
+        padding: 25px;
+        font-size: 13px;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+# ============================================================
+# HEADER
+# ============================================================
+
+st.markdown(
+    """
+    <div class="hero">
+
+    <h1>🔎 Data Detective AI</h1>
+
+    <p>
+    Automated business data investigation platform for
+    profiling, data quality analysis, anomaly detection,
+    KPI analysis and business insights.
+    </p>
+
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+# ============================================================
+# SIDEBAR
+# ============================================================
+
+st.sidebar.title("Data Detective AI")
+
+st.sidebar.markdown(
+    """
+    ### Investigation Pipeline
+
+    1. Upload data
+    2. Data profiling
+    3. Data quality
+    4. Anomaly detection
+    5. Business metrics
+    6. Visual analysis
+    7. Business insights
+    """
+)
+
+uploaded_file = st.sidebar.file_uploader(
+    "Upload CSV or Excel",
+    type=["csv", "xlsx", "xls"],
+)
+
+
+# ============================================================
+# DEMO DATA OPTION
+# ============================================================
+
+use_demo_data = st.sidebar.checkbox(
+    "Use sample sales data"
+)
+
+
+# ============================================================
+# LOAD DATA
+# ============================================================
+
+df = None
+file_name = None
+
+
+if uploaded_file is not None:
+
+    file_name = uploaded_file.name
+
+    try:
+
+        if uploaded_file.name.lower().endswith(".csv"):
+            df = pd.read_csv(uploaded_file)
+
+        else:
+            df = pd.read_excel(uploaded_file)
+
+        st.sidebar.success("Dataset loaded successfully.")
+
+    except Exception as e:
+
+        st.sidebar.error(
+            f"Unable to load file: {e}"
         )
 
-    summary_df = __import__(
-        "pandas"
-    ).DataFrame(rows)
 
-    summary_df.to_csv(
-        OUTPUT_DIR / "summary.csv",
-        index=False
+elif use_demo_data:
+
+    demo_path = PROJECT_ROOT / "data" / "sales.csv"
+
+    if demo_path.exists():
+
+        try:
+
+            df = pd.read_csv(demo_path)
+            file_name = "sales.csv"
+
+            st.sidebar.success(
+                "Demo sales dataset loaded."
+            )
+
+        except Exception as e:
+
+            st.sidebar.error(
+                f"Could not load demo data: {e}"
+            )
+
+    else:
+
+        st.sidebar.warning(
+            "data/sales.csv was not found."
+        )
+
+
+# ============================================================
+# NO DATA SCREEN
+# ============================================================
+
+if df is None:
+
+    st.info(
+        "Upload a CSV/Excel dataset from the sidebar "
+        "or select **Use sample sales data**."
     )
 
-    return summary_df
+    st.markdown("### What this project does")
+
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        st.metric(
+            "Data Profiling",
+            "Automated"
+        )
+
+    with col2:
+        st.metric(
+            "Quality Checks",
+            "Automated"
+        )
+
+    with col3:
+        st.metric(
+            "Anomaly Detection",
+            "Enabled"
+        )
+
+    with col4:
+        st.metric(
+            "Business Analysis",
+            "Enabled"
+        )
+
+    st.stop()
 
 
-def build_report(results):
+# ============================================================
+# BASIC DATA PREPARATION
+# ============================================================
 
-    report_path = (
-        REPORT_DIR /
-        "novamart_investigation.md"
+df = df.copy()
+
+# Try cleaning safely
+try:
+
+    cleaned_df = clean_dataset(
+        df.copy()
     )
 
-    with open(
-        report_path,
-        "w",
-        encoding="utf-8"
-    ) as report:
+    if isinstance(cleaned_df, pd.DataFrame):
 
-        report.write(
-            "# NovaMart Data Investigation\n\n"
-        )
+        df_analysis = cleaned_df
 
-        report.write(
-            "## Executive Summary\n\n"
-        )
+    else:
 
-        report.write(
-            "Data Detective AI analyzed the available "
-            "business datasets to identify data-quality "
-            "issues, business metrics, unusual observations, "
-            "and potential areas for further investigation.\n\n"
-        )
+        df_analysis = df
 
-        for dataset_name, result in results.items():
+except Exception:
 
-            report.write(
-                f"## Dataset: {dataset_name}\n\n"
-            )
+    df_analysis = df
 
-            quality = result["quality"]
-            metrics = result["metrics"]
-            anomalies = result["anomaly_summary"]
 
-            report.write(
-                "### Data Quality\n\n"
-            )
+# ============================================================
+# DATASET OVERVIEW
+# ============================================================
 
-            report.write(
-                f"- Rows: {quality['rows']:,}\n"
-            )
+st.header("Dataset Overview")
 
-            report.write(
-                f"- Columns: {quality['columns']:,}\n"
-            )
+rows = len(df_analysis)
+columns = len(df_analysis.columns)
 
-            report.write(
-                f"- Missing values: "
-                f"{quality['missing_values']:,}\n"
-            )
+missing_values = int(
+    df_analysis.isna().sum().sum()
+)
 
-            report.write(
-                f"- Duplicate rows: "
-                f"{quality['duplicate_rows']:,}\n\n"
-            )
+duplicate_rows = int(
+    df_analysis.duplicated().sum()
+)
 
-            report.write(
-                "### Business Metrics\n\n"
-            )
+numeric_columns = len(
+    df_analysis.select_dtypes(
+        include="number"
+    ).columns
+)
 
-            for key, value in metrics.items():
+categorical_columns = len(
+    df_analysis.select_dtypes(
+        include=["object", "category"]
+    ).columns
+)
 
-                report.write(
-                    f"- {key}: {value}\n"
-                )
 
-            report.write("\n")
+col1, col2, col3, col4, col5 = st.columns(5)
 
-            report.write(
-                "### Anomaly Detection\n\n"
-            )
+with col1:
+    st.metric(
+        "Rows",
+        f"{rows:,}"
+    )
 
-            report.write(
-                f"- Total records: "
-                f"{anomalies['total_records']:,}\n"
-            )
+with col2:
+    st.metric(
+        "Columns",
+        columns
+    )
 
-            report.write(
-                f"- Anomalies: "
-                f"{anomalies['anomalies']:,}\n"
-            )
+with col3:
+    st.metric(
+        "Missing Values",
+        f"{missing_values:,}"
+    )
 
-            report.write(
-                f"- Anomaly rate: "
-                f"{anomalies['anomaly_percentage']:.2f}%\n\n"
-            )
+with col4:
+    st.metric(
+        "Duplicates",
+        f"{duplicate_rows:,}"
+    )
 
-            report.write(
-                "### Automated Insights\n\n"
-            )
-
-            for insight in result["insights"]:
-
-                report.write(
-                    f"**{insight['category']}**\n\n"
-                )
-
-                report.write(
-                    f"- Finding: "
-                    f"{insight['finding']}\n"
-                )
-
-                report.write(
-                    f"- Evidence: "
-                    f"{insight['evidence']}\n"
-                )
-
-                report.write(
-                    f"- Recommendation: "
-                    f"{insight['recommendation']}\n\n"
-                )
-
-        report.write(
-            "## Limitations\n\n"
-        )
-
-        report.write(
-            "- Anomalies indicate unusual observations, "
-            "not confirmed business problems.\n"
-            "- Correlation does not establish causation.\n"
-            "- Automated insights should be validated by "
-            "a human analyst.\n"
-            "- Results depend on dataset quality and "
-            "completeness.\n"
-        )
-
-    print(
-        f"\nReport created: {report_path}"
+with col5:
+    st.metric(
+        "Numeric Columns",
+        numeric_columns
     )
 
 
-def main():
+# ============================================================
+# TABS
+# ============================================================
 
-    ensure_directories()
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
+    [
+        "Dataset",
+        "Profile",
+        "Data Quality",
+        "Anomalies",
+        "Business Analysis",
+        "Visualizations",
+    ]
+)
 
-    results = {}
 
-    sales_file = DATA_DIR / "sales.csv"
-    support_file = DATA_DIR / "support.csv"
+# ============================================================
+# TAB 1 — DATASET
+# ============================================================
 
-    if sales_file.exists():
+with tab1:
 
-        results["sales"] = analyze_dataset(
-            sales_file,
-            "sales"
+    st.subheader("Data Preview")
+
+    st.dataframe(
+        df_analysis.head(100),
+        use_container_width=True,
+    )
+
+    st.subheader("Column Information")
+
+    column_info = pd.DataFrame(
+        {
+            "Column": df_analysis.columns,
+            "Data Type": [
+                str(dtype)
+                for dtype in df_analysis.dtypes
+            ],
+            "Missing": [
+                int(df_analysis[col].isna().sum())
+                for col in df_analysis.columns
+            ],
+            "Unique Values": [
+                int(df_analysis[col].nunique())
+                for col in df_analysis.columns
+            ],
+        }
+    )
+
+    st.dataframe(
+        column_info,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+# ============================================================
+# TAB 2 — PROFILE
+# ============================================================
+
+with tab2:
+
+    st.subheader("Automated Data Profile")
+
+    try:
+
+        profile = profile_dataframe(
+            df_analysis
+        )
+
+        if isinstance(profile, dict):
+
+            for key, value in profile.items():
+
+                st.write(
+                    f"**{key}:** {value}"
+                )
+
+        elif isinstance(profile, pd.DataFrame):
+
+            st.dataframe(
+                profile,
+                use_container_width=True,
+            )
+
+        else:
+
+            st.write(profile)
+
+    except Exception as e:
+
+        st.warning(
+            f"Profiling could not be displayed: {e}"
+        )
+
+    st.subheader("Numeric Summary")
+
+    try:
+
+        numeric_summary = get_numeric_summary(
+            df_analysis
+        )
+
+        if numeric_summary is not None:
+
+            st.dataframe(
+                numeric_summary,
+                use_container_width=True,
+            )
+
+    except Exception as e:
+
+        st.warning(
+            f"Numeric summary unavailable: {e}"
+        )
+
+    st.subheader("Categorical Summary")
+
+    try:
+
+        categorical_summary = get_categorical_summary(
+            df_analysis
+        )
+
+        if categorical_summary is not None:
+
+            st.dataframe(
+                categorical_summary,
+                use_container_width=True,
+            )
+
+    except Exception as e:
+
+        st.warning(
+            f"Categorical summary unavailable: {e}"
+        )
+
+
+# ============================================================
+# TAB 3 — DATA QUALITY
+# ============================================================
+
+with tab3:
+
+    st.subheader("Data Quality Assessment")
+
+    try:
+
+        quality = get_data_quality(
+            df_analysis
+        )
+
+        if isinstance(quality, dict):
+
+            quality_df = pd.DataFrame(
+                [
+                    {
+                        "Metric": key,
+                        "Value": value,
+                    }
+                    for key, value in quality.items()
+                ]
+            )
+
+            st.dataframe(
+                quality_df,
+                use_container_width=True,
+                hide_index=True,
+            )
+
+        elif isinstance(quality, pd.DataFrame):
+
+            st.dataframe(
+                quality,
+                use_container_width=True,
+            )
+
+        else:
+
+            st.write(quality)
+
+    except Exception as e:
+
+        st.error(
+            f"Data quality analysis failed: {e}"
+        )
+
+    st.subheader("Missing Values")
+
+    missing = (
+        df_analysis.isna()
+        .sum()
+        .sort_values(
+            ascending=False
+        )
+    )
+
+    missing = missing[
+        missing > 0
+    ]
+
+    if len(missing) == 0:
+
+        st.success(
+            "No missing values detected."
         )
 
     else:
 
-        print(
-            f"Warning: {sales_file} not found."
+        missing_df = (
+            missing
+            .reset_index()
         )
 
-    if support_file.exists():
+        missing_df.columns = [
+            "Column",
+            "Missing Values",
+        ]
 
-        results["support"] = analyze_dataset(
-            support_file,
-            "support"
+        st.dataframe(
+            missing_df,
+            use_container_width=True,
+            hide_index=True,
+        )
+
+        try:
+
+            fig = plot_missing_values(
+                df_analysis
+            )
+
+            if fig is not None:
+                st.pyplot(fig)
+
+        except Exception:
+
+            pass
+
+
+# ============================================================
+# TAB 4 — ANOMALIES
+# ============================================================
+
+with tab4:
+
+    st.subheader(
+        "Automated Anomaly Detection"
+    )
+
+    try:
+
+        anomaly_df = detect_anomalies(
+            df_analysis
+        )
+
+        if isinstance(anomaly_df, pd.DataFrame):
+
+            st.write(
+                f"Detected **{len(anomaly_df):,}** "
+                "potential anomalous records."
+            )
+
+            st.dataframe(
+                anomaly_df.head(50),
+                use_container_width=True,
+            )
+
+            try:
+
+                summary = get_anomaly_summary(
+                    anomaly_df
+                )
+
+                if summary is not None:
+
+                    st.subheader(
+                        "Anomaly Summary"
+                    )
+
+                    if isinstance(
+                        summary,
+                        pd.DataFrame
+                    ):
+
+                        st.dataframe(
+                            summary,
+                            use_container_width=True,
+                        )
+
+                    else:
+
+                        st.write(summary)
+
+            except Exception:
+
+                pass
+
+            try:
+
+                top_anomalies = get_top_anomalies(
+                    anomaly_df
+                )
+
+                if top_anomalies is not None:
+
+                    st.subheader(
+                        "Top Anomalies"
+                    )
+
+                    st.dataframe(
+                        top_anomalies,
+                        use_container_width=True,
+                    )
+
+            except Exception:
+
+                pass
+
+        else:
+
+            st.info(
+                "No anomaly table was returned."
+            )
+
+    except Exception as e:
+
+        st.warning(
+            f"Anomaly detection could not run: {e}"
+        )
+
+
+# ============================================================
+# TAB 5 — BUSINESS ANALYSIS
+# ============================================================
+
+with tab5:
+
+    st.subheader(
+        "Business Metrics"
+    )
+
+    try:
+
+        metrics = calculate_business_metrics(
+            df_analysis
+        )
+
+        if isinstance(metrics, dict):
+
+            metric_cols = st.columns(
+                min(
+                    len(metrics),
+                    4
+                )
+            )
+
+            for index, (
+                metric_name,
+                metric_value
+            ) in enumerate(
+                metrics.items()
+            ):
+
+                with metric_cols[
+                    index % len(metric_cols)
+                ]:
+
+                    st.metric(
+                        str(metric_name),
+                        str(metric_value)
+                    )
+
+        elif isinstance(
+            metrics,
+            pd.DataFrame
+        ):
+
+            st.dataframe(
+                metrics,
+                use_container_width=True,
+            )
+
+        else:
+
+            st.write(metrics)
+
+    except Exception as e:
+
+        st.warning(
+            f"Business metrics unavailable: {e}"
+        )
+
+    st.subheader(
+        "Numeric Relationships"
+    )
+
+    numeric_cols = list(
+        df_analysis.select_dtypes(
+            include="number"
+        ).columns
+    )
+
+    if len(numeric_cols) >= 2:
+
+        correlation = (
+            df_analysis[numeric_cols]
+            .corr(numeric_only=True)
+        )
+
+        st.dataframe(
+            correlation,
+            use_container_width=True,
         )
 
     else:
 
-        print(
-            f"Warning: {support_file} not found."
+        st.info(
+            "At least two numeric columns "
+            "are required for correlation analysis."
         )
 
-    if not results:
 
-        raise FileNotFoundError(
-            "No CSV files found in the data directory."
-        )
+# ============================================================
+# TAB 6 — VISUALIZATIONS
+# ============================================================
 
-    build_summary(results)
+with tab6:
 
-    build_report(results)
-
-    print("\n" + "=" * 60)
-    print(
-        "DATA DETECTIVE AI ANALYSIS COMPLETE"
+    st.subheader(
+        "Automated Business Visualizations"
     )
-    print("=" * 60)
+
+    numeric_cols = list(
+        df_analysis.select_dtypes(
+            include="number"
+        ).columns
+    )
+
+    categorical_cols = list(
+        df_analysis.select_dtypes(
+            include=[
+                "object",
+                "category"
+            ]
+        ).columns
+    )
+
+    # --------------------------------------------------------
+    # Numeric distribution
+    # --------------------------------------------------------
+
+    if numeric_cols:
+
+        selected_numeric = st.selectbox(
+            "Select numeric column",
+            numeric_cols,
+        )
+
+        try:
+
+            fig = plot_numeric_distribution(
+                df_analysis,
+                selected_numeric,
+            )
+
+            if fig is not None:
+                st.pyplot(fig)
+
+        except TypeError:
+
+            try:
+
+                fig = plot_numeric_distribution(
+                    df_analysis
+                )
+
+                if fig is not None:
+                    st.pyplot(fig)
+
+            except Exception as e:
+
+                st.warning(
+                    f"Distribution chart unavailable: {e}"
+                )
+
+        except Exception as e:
+
+            st.warning(
+                f"Distribution chart unavailable: {e}"
+            )
+
+    # --------------------------------------------------------
+    # Category analysis
+    # --------------------------------------------------------
+
+    if categorical_cols and numeric_cols:
+
+        st.subheader(
+            "Category Performance"
+        )
+
+        category = st.selectbox(
+            "Category column",
+            categorical_cols,
+            key="category_column",
+        )
+
+        metric = st.selectbox(
+            "Metric column",
+            numeric_cols,
+            key="metric_column",
+        )
+
+        try:
+
+            fig = plot_category_performance(
+                df_analysis,
+                category,
+                metric,
+            )
+
+            if fig is not None:
+                st.pyplot(fig)
+
+        except Exception as e:
+
+            st.warning(
+                f"Category chart unavailable: {e}"
+            )
 
 
-if __name__ == "__main__":
-    main()
+# ============================================================
+# FINAL DATA TABLE
+# ============================================================
+
+st.divider()
+
+st.subheader("Analysis Dataset")
+
+st.caption(
+    f"Source: {file_name} | "
+    f"{rows:,} rows × {columns} columns"
+)
+
+st.dataframe(
+    df_analysis,
+    use_container_width=True,
+)
+
+
+# ============================================================
+# FOOTER
+# ============================================================
+
+st.divider()
+
+st.markdown(
+    """
+    <div class="footer">
+
+    <strong>Data Detective AI | RetailIQ Business Analytics</strong>
+    <br><br>
+
+    Automated profiling |
+    Data quality analysis |
+    Anomaly detection |
+    Business metrics |
+    Visual analytics
+
+    <br><br>
+
+    Built with Python, Pandas, Streamlit and Scikit-learn
+
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
